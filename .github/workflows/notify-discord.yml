@@ -1,14 +1,24 @@
-name: Notify Discord
+name: notify
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
-  notify:
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: Send message to Discord
-        uses: Ilshidur/action-discord@master
-        env:
-          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+      - uses: actions/checkout@master
+      - name: Push Notification
+        uses: appleboy/discord-action@master
         with:
-          message: "🚀 New push to **${{ github.repository }}** by **${{ github.actor }}**: `${{ github.event.head_commit.message }}`"
+          webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          username: "Party People"
+          message: |
+            🚀 New push to **${{ github.repository }}** by **${{ github.actor }}**
+            
+            **Commit Message:** `${{ github.event.head_commit.message }}`
+            **Commit URL:** ${{ github.event.head_commit.url }}
+          color: "#48f442"
