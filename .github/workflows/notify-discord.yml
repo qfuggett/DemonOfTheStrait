@@ -1,14 +1,26 @@
-name: Notify Discord
+# The name of the workflow, which will appear on the Actions tab in your repository.
+name: Notify Discord on Push
 
+# Specifies when the workflow will be triggered. In this case, it's on a 'push' event.
 on: [push]
 
+# Defines the jobs to be executed in this workflow.
 jobs:
+  # The ID for this job.
   notify:
+    # The type of runner to use. 'ubuntu-latest' is a common choice.
     runs-on: ubuntu-latest
+    # Defines the steps to be run within this job.
     steps:
+      # A descriptive name for this step.
       - name: Send message to Discord
+        # The external action to use.
         uses: Ilshidur/action-discord@master
+        # Environment variables needed by the action.
         env:
+          # Your Discord webhook URL, stored securely as a repository secret.
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
+        # Inputs for the action.
         with:
+          # The message to send to Discord.
           message: "🚀 New push to **${{ github.repository }}** by **${{ github.actor }}**: `${{ github.event.head_commit.message }}`"
