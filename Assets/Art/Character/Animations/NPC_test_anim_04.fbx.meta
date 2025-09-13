@@ -5,7 +5,7 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects: {}
   materials:
-    materialImportMode: 2
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -22,7 +22,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -44,19 +44,375 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
       keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
+      keepOriginalPositionXZ: 1
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask: []
-      maskType: 3
+      transformMask:
+      - path: 
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:Hip_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:Hip_L/NPC_Rig_v04:HipPart1_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:Hip_L/NPC_Rig_v04:HipPart1_L/NPC_Rig_v04:HipPart2_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:Hip_L/NPC_Rig_v04:HipPart1_L/NPC_Rig_v04:HipPart2_L/NPC_Rig_v04:Knee_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:Hip_L/NPC_Rig_v04:HipPart1_L/NPC_Rig_v04:HipPart2_L/NPC_Rig_v04:Knee_L/NPC_Rig_v04:Ankle_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:Hip_L/NPC_Rig_v04:HipPart1_L/NPC_Rig_v04:HipPart2_L/NPC_Rig_v04:Knee_L/NPC_Rig_v04:Ankle_L/NPC_Rig_v04:Toes_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:Hip_L/NPC_Rig_v04:HipPart1_L/NPC_Rig_v04:HipPart2_L/NPC_Rig_v04:Knee_L/NPC_Rig_v04:Ankle_L/NPC_Rig_v04:Toes_L/NPC_Rig_v04:ToesEnd_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:Hip_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:Hip_R/NPC_Rig_v04:HipPart1_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:Hip_R/NPC_Rig_v04:HipPart1_R/NPC_Rig_v04:HipPart2_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:Hip_R/NPC_Rig_v04:HipPart1_R/NPC_Rig_v04:HipPart2_R/NPC_Rig_v04:Knee_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:Hip_R/NPC_Rig_v04:HipPart1_R/NPC_Rig_v04:HipPart2_R/NPC_Rig_v04:Knee_R/NPC_Rig_v04:Ankle_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:Hip_R/NPC_Rig_v04:HipPart1_R/NPC_Rig_v04:HipPart2_R/NPC_Rig_v04:Knee_R/NPC_Rig_v04:Ankle_R/NPC_Rig_v04:Toes_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:Hip_R/NPC_Rig_v04:HipPart1_R/NPC_Rig_v04:HipPart2_R/NPC_Rig_v04:Knee_R/NPC_Rig_v04:Ankle_R/NPC_Rig_v04:Toes_R/NPC_Rig_v04:ToesEnd_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Neck_M
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Neck_M/NPC_Rig_v04:NeckPart1_M
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Neck_M/NPC_Rig_v04:NeckPart1_M/NPC_Rig_v04:NeckPart2_M
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Neck_M/NPC_Rig_v04:NeckPart1_M/NPC_Rig_v04:NeckPart2_M/NPC_Rig_v04:Head_M
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Neck_M/NPC_Rig_v04:NeckPart1_M/NPC_Rig_v04:NeckPart2_M/NPC_Rig_v04:Head_M/NPC_Rig_v04:Eye_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Neck_M/NPC_Rig_v04:NeckPart1_M/NPC_Rig_v04:NeckPart2_M/NPC_Rig_v04:Head_M/NPC_Rig_v04:Eye_L/NPC_Rig_v04:EyeEnd_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Neck_M/NPC_Rig_v04:NeckPart1_M/NPC_Rig_v04:NeckPart2_M/NPC_Rig_v04:Head_M/NPC_Rig_v04:Eye_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Neck_M/NPC_Rig_v04:NeckPart1_M/NPC_Rig_v04:NeckPart2_M/NPC_Rig_v04:Head_M/NPC_Rig_v04:Eye_R/NPC_Rig_v04:EyeEnd_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Neck_M/NPC_Rig_v04:NeckPart1_M/NPC_Rig_v04:NeckPart2_M/NPC_Rig_v04:Head_M/NPC_Rig_v04:HeadEnd_M
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Neck_M/NPC_Rig_v04:NeckPart1_M/NPC_Rig_v04:NeckPart2_M/NPC_Rig_v04:Head_M/NPC_Rig_v04:Jaw_M
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Neck_M/NPC_Rig_v04:NeckPart1_M/NPC_Rig_v04:NeckPart2_M/NPC_Rig_v04:Head_M/NPC_Rig_v04:Jaw_M/NPC_Rig_v04:JawEnd_M
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:Cup_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:Cup_L/NPC_Rig_v04:PinkyFinger1_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:Cup_L/NPC_Rig_v04:PinkyFinger1_L/NPC_Rig_v04:PinkyFinger2_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:Cup_L/NPC_Rig_v04:PinkyFinger1_L/NPC_Rig_v04:PinkyFinger2_L/NPC_Rig_v04:PinkyFinger3_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:Cup_L/NPC_Rig_v04:PinkyFinger1_L/NPC_Rig_v04:PinkyFinger2_L/NPC_Rig_v04:PinkyFinger3_L/NPC_Rig_v04:PinkyFinger4_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:Cup_L/NPC_Rig_v04:RingFinger1_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:Cup_L/NPC_Rig_v04:RingFinger1_L/NPC_Rig_v04:RingFinger2_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:Cup_L/NPC_Rig_v04:RingFinger1_L/NPC_Rig_v04:RingFinger2_L/NPC_Rig_v04:RingFinger3_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:Cup_L/NPC_Rig_v04:RingFinger1_L/NPC_Rig_v04:RingFinger2_L/NPC_Rig_v04:RingFinger3_L/NPC_Rig_v04:RingFinger4_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:IndexFinger1_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:IndexFinger1_L/NPC_Rig_v04:IndexFinger2_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:IndexFinger1_L/NPC_Rig_v04:IndexFinger2_L/NPC_Rig_v04:IndexFinger3_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:IndexFinger1_L/NPC_Rig_v04:IndexFinger2_L/NPC_Rig_v04:IndexFinger3_L/NPC_Rig_v04:IndexFinger4_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:MiddleFinger1_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:MiddleFinger1_L/NPC_Rig_v04:MiddleFinger2_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:MiddleFinger1_L/NPC_Rig_v04:MiddleFinger2_L/NPC_Rig_v04:MiddleFinger3_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:MiddleFinger1_L/NPC_Rig_v04:MiddleFinger2_L/NPC_Rig_v04:MiddleFinger3_L/NPC_Rig_v04:MiddleFinger4_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:ThumbFinger1_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:ThumbFinger1_L/NPC_Rig_v04:ThumbFinger2_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:ThumbFinger1_L/NPC_Rig_v04:ThumbFinger2_L/NPC_Rig_v04:ThumbFinger3_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_L/NPC_Rig_v04:Shoulder_L/NPC_Rig_v04:ShoulderPart1_L/NPC_Rig_v04:ShoulderPart2_L/NPC_Rig_v04:Elbow_L/NPC_Rig_v04:ElbowPart1_L/NPC_Rig_v04:ElbowPart2_L/NPC_Rig_v04:Wrist_L/NPC_Rig_v04:ThumbFinger1_L/NPC_Rig_v04:ThumbFinger2_L/NPC_Rig_v04:ThumbFinger3_L/NPC_Rig_v04:ThumbFinger4_L
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:Cup_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:Cup_R/NPC_Rig_v04:PinkyFinger1_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:Cup_R/NPC_Rig_v04:PinkyFinger1_R/NPC_Rig_v04:PinkyFinger2_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:Cup_R/NPC_Rig_v04:PinkyFinger1_R/NPC_Rig_v04:PinkyFinger2_R/NPC_Rig_v04:PinkyFinger3_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:Cup_R/NPC_Rig_v04:PinkyFinger1_R/NPC_Rig_v04:PinkyFinger2_R/NPC_Rig_v04:PinkyFinger3_R/NPC_Rig_v04:PinkyFinger4_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:Cup_R/NPC_Rig_v04:RingFinger1_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:Cup_R/NPC_Rig_v04:RingFinger1_R/NPC_Rig_v04:RingFinger2_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:Cup_R/NPC_Rig_v04:RingFinger1_R/NPC_Rig_v04:RingFinger2_R/NPC_Rig_v04:RingFinger3_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:Cup_R/NPC_Rig_v04:RingFinger1_R/NPC_Rig_v04:RingFinger2_R/NPC_Rig_v04:RingFinger3_R/NPC_Rig_v04:RingFinger4_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:IndexFinger1_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:IndexFinger1_R/NPC_Rig_v04:IndexFinger2_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:IndexFinger1_R/NPC_Rig_v04:IndexFinger2_R/NPC_Rig_v04:IndexFinger3_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:IndexFinger1_R/NPC_Rig_v04:IndexFinger2_R/NPC_Rig_v04:IndexFinger3_R/NPC_Rig_v04:IndexFinger4_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:MiddleFinger1_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:MiddleFinger1_R/NPC_Rig_v04:MiddleFinger2_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:MiddleFinger1_R/NPC_Rig_v04:MiddleFinger2_R/NPC_Rig_v04:MiddleFinger3_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:MiddleFinger1_R/NPC_Rig_v04:MiddleFinger2_R/NPC_Rig_v04:MiddleFinger3_R/NPC_Rig_v04:MiddleFinger4_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:ThumbFinger1_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:ThumbFinger1_R/NPC_Rig_v04:ThumbFinger2_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:ThumbFinger1_R/NPC_Rig_v04:ThumbFinger2_R/NPC_Rig_v04:ThumbFinger3_R
+        weight: 1
+      - path: NPC_Rig_v04:DeformationSystem/NPC_Rig_v04:Root_M/NPC_Rig_v04:RootPart1_M/NPC_Rig_v04:RootPart2_M/NPC_Rig_v04:Spine1_M/NPC_Rig_v04:Spine1Part1_M/NPC_Rig_v04:Spine1Part2_M/NPC_Rig_v04:Chest_M/NPC_Rig_v04:Scapula_R/NPC_Rig_v04:Shoulder_R/NPC_Rig_v04:ShoulderPart1_R/NPC_Rig_v04:ShoulderPart2_R/NPC_Rig_v04:Elbow_R/NPC_Rig_v04:ElbowPart1_R/NPC_Rig_v04:ElbowPart2_R/NPC_Rig_v04:Wrist_R/NPC_Rig_v04:ThumbFinger1_R/NPC_Rig_v04:ThumbFinger2_R/NPC_Rig_v04:ThumbFinger3_R/NPC_Rig_v04:ThumbFinger4_R
+        weight: 1
+      - path: NPC_Rig_v04:Geometry
+        weight: 1
+      - path: NPC_Rig_v04:Geometry/NPC_Rig_v04:body_geo
+        weight: 1
+      - path: NPC_Rig_v04:Geometry/NPC_Rig_v04:head_geo
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKIKSystem
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKIKSystem/NPC_Rig_v04:FKIKParentConstraintArm_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKIKSystem/NPC_Rig_v04:FKIKParentConstraintArm_L/NPC_Rig_v04:FKIKArm_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKIKSystem/NPC_Rig_v04:FKIKParentConstraintArm_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKIKSystem/NPC_Rig_v04:FKIKParentConstraintArm_R/NPC_Rig_v04:FKIKArm_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKIKSystem/NPC_Rig_v04:FKIKParentConstraintLeg_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKIKSystem/NPC_Rig_v04:FKIKParentConstraintLeg_L/NPC_Rig_v04:FKIKLeg_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKIKSystem/NPC_Rig_v04:FKIKParentConstraintLeg_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKIKSystem/NPC_Rig_v04:FKIKParentConstraintLeg_R/NPC_Rig_v04:FKIKLeg_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_L/NPC_Rig_v04:FKExtraScapula_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_L/NPC_Rig_v04:FKExtraScapula_L/NPC_Rig_v04:FKScapula_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_L/NPC_Rig_v04:FKExtraScapula_L/NPC_Rig_v04:FKScapula_L/NPC_Rig_v04:FKXScapula_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_L/NPC_Rig_v04:FKExtraScapula_L/NPC_Rig_v04:FKScapula_L/NPC_Rig_v04:FKXScapula_L/NPC_Rig_v04:FKOffsetShoulder_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_L/NPC_Rig_v04:FKExtraScapula_L/NPC_Rig_v04:FKScapula_L/NPC_Rig_v04:FKXScapula_L/NPC_Rig_v04:FKOffsetShoulder_L/NPC_Rig_v04:FKGlobalShoulder_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_L/NPC_Rig_v04:FKExtraScapula_L/NPC_Rig_v04:FKScapula_L/NPC_Rig_v04:FKXScapula_L/NPC_Rig_v04:FKOffsetShoulder_L/NPC_Rig_v04:FKGlobalShoulder_L/NPC_Rig_v04:FKExtraShoulder_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_L/NPC_Rig_v04:FKExtraScapula_L/NPC_Rig_v04:FKScapula_L/NPC_Rig_v04:FKXScapula_L/NPC_Rig_v04:FKOffsetShoulder_L/NPC_Rig_v04:FKGlobalShoulder_L/NPC_Rig_v04:FKExtraShoulder_L/NPC_Rig_v04:FKShoulder_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_L/NPC_Rig_v04:FKExtraScapula_L/NPC_Rig_v04:FKScapula_L/NPC_Rig_v04:FKXScapula_L/NPC_Rig_v04:FKOffsetShoulder_L/NPC_Rig_v04:FKGlobalShoulder_L/NPC_Rig_v04:FKExtraShoulder_L/NPC_Rig_v04:FKShoulder_L/NPC_Rig_v04:FKXShoulder_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_L/NPC_Rig_v04:FKExtraScapula_L/NPC_Rig_v04:FKScapula_L/NPC_Rig_v04:FKXScapula_L/NPC_Rig_v04:FKOffsetShoulder_L/NPC_Rig_v04:FKGlobalShoulder_L/NPC_Rig_v04:FKExtraShoulder_L/NPC_Rig_v04:FKShoulder_L/NPC_Rig_v04:FKXShoulder_L/NPC_Rig_v04:FKOffsetElbow_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_L/NPC_Rig_v04:FKExtraScapula_L/NPC_Rig_v04:FKScapula_L/NPC_Rig_v04:FKXScapula_L/NPC_Rig_v04:FKOffsetShoulder_L/NPC_Rig_v04:FKGlobalShoulder_L/NPC_Rig_v04:FKExtraShoulder_L/NPC_Rig_v04:FKShoulder_L/NPC_Rig_v04:FKXShoulder_L/NPC_Rig_v04:FKOffsetElbow_L/NPC_Rig_v04:FKExtraElbow_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_L/NPC_Rig_v04:FKExtraScapula_L/NPC_Rig_v04:FKScapula_L/NPC_Rig_v04:FKXScapula_L/NPC_Rig_v04:FKOffsetShoulder_L/NPC_Rig_v04:FKGlobalShoulder_L/NPC_Rig_v04:FKExtraShoulder_L/NPC_Rig_v04:FKShoulder_L/NPC_Rig_v04:FKXShoulder_L/NPC_Rig_v04:FKOffsetElbow_L/NPC_Rig_v04:FKExtraElbow_L/NPC_Rig_v04:FKElbow_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_L/NPC_Rig_v04:FKExtraScapula_L/NPC_Rig_v04:FKScapula_L/NPC_Rig_v04:FKXScapula_L/NPC_Rig_v04:FKOffsetShoulder_L/NPC_Rig_v04:FKGlobalShoulder_L/NPC_Rig_v04:FKExtraShoulder_L/NPC_Rig_v04:FKShoulder_L/NPC_Rig_v04:FKXShoulder_L/NPC_Rig_v04:FKOffsetElbow_L/NPC_Rig_v04:FKExtraElbow_L/NPC_Rig_v04:FKElbow_L/NPC_Rig_v04:FKXElbow_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_L/NPC_Rig_v04:FKExtraScapula_L/NPC_Rig_v04:FKScapula_L/NPC_Rig_v04:FKXScapula_L/NPC_Rig_v04:FKOffsetShoulder_L/NPC_Rig_v04:FKGlobalShoulder_L/NPC_Rig_v04:FKExtraShoulder_L/NPC_Rig_v04:FKShoulder_L/NPC_Rig_v04:FKXShoulder_L/NPC_Rig_v04:FKOffsetElbow_L/NPC_Rig_v04:FKExtraElbow_L/NPC_Rig_v04:FKElbow_L/NPC_Rig_v04:FKXElbow_L/NPC_Rig_v04:FKOffsetWrist_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_L/NPC_Rig_v04:FKExtraScapula_L/NPC_Rig_v04:FKScapula_L/NPC_Rig_v04:FKXScapula_L/NPC_Rig_v04:FKOffsetShoulder_L/NPC_Rig_v04:FKGlobalShoulder_L/NPC_Rig_v04:FKExtraShoulder_L/NPC_Rig_v04:FKShoulder_L/NPC_Rig_v04:FKXShoulder_L/NPC_Rig_v04:FKOffsetElbow_L/NPC_Rig_v04:FKExtraElbow_L/NPC_Rig_v04:FKElbow_L/NPC_Rig_v04:FKXElbow_L/NPC_Rig_v04:FKOffsetWrist_L/NPC_Rig_v04:FKExtraWrist_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_L/NPC_Rig_v04:FKExtraScapula_L/NPC_Rig_v04:FKScapula_L/NPC_Rig_v04:FKXScapula_L/NPC_Rig_v04:FKOffsetShoulder_L/NPC_Rig_v04:FKGlobalShoulder_L/NPC_Rig_v04:FKExtraShoulder_L/NPC_Rig_v04:FKShoulder_L/NPC_Rig_v04:FKXShoulder_L/NPC_Rig_v04:FKOffsetElbow_L/NPC_Rig_v04:FKExtraElbow_L/NPC_Rig_v04:FKElbow_L/NPC_Rig_v04:FKXElbow_L/NPC_Rig_v04:FKOffsetWrist_L/NPC_Rig_v04:FKExtraWrist_L/NPC_Rig_v04:FKWrist_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_L/NPC_Rig_v04:FKExtraScapula_L/NPC_Rig_v04:FKScapula_L/NPC_Rig_v04:FKXScapula_L/NPC_Rig_v04:FKOffsetShoulder_L/NPC_Rig_v04:FKGlobalShoulder_L/NPC_Rig_v04:FKExtraShoulder_L/NPC_Rig_v04:FKShoulder_L/NPC_Rig_v04:FKXShoulder_L/NPC_Rig_v04:FKOffsetElbow_L/NPC_Rig_v04:FKExtraElbow_L/NPC_Rig_v04:FKElbow_L/NPC_Rig_v04:FKXElbow_L/NPC_Rig_v04:FKOffsetWrist_L/NPC_Rig_v04:FKExtraWrist_L/NPC_Rig_v04:FKWrist_L/NPC_Rig_v04:FKXWrist_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_R/NPC_Rig_v04:FKExtraScapula_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_R/NPC_Rig_v04:FKExtraScapula_R/NPC_Rig_v04:FKScapula_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_R/NPC_Rig_v04:FKExtraScapula_R/NPC_Rig_v04:FKScapula_R/NPC_Rig_v04:FKXScapula_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_R/NPC_Rig_v04:FKExtraScapula_R/NPC_Rig_v04:FKScapula_R/NPC_Rig_v04:FKXScapula_R/NPC_Rig_v04:FKOffsetShoulder_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_R/NPC_Rig_v04:FKExtraScapula_R/NPC_Rig_v04:FKScapula_R/NPC_Rig_v04:FKXScapula_R/NPC_Rig_v04:FKOffsetShoulder_R/NPC_Rig_v04:FKGlobalShoulder_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_R/NPC_Rig_v04:FKExtraScapula_R/NPC_Rig_v04:FKScapula_R/NPC_Rig_v04:FKXScapula_R/NPC_Rig_v04:FKOffsetShoulder_R/NPC_Rig_v04:FKGlobalShoulder_R/NPC_Rig_v04:FKExtraShoulder_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_R/NPC_Rig_v04:FKExtraScapula_R/NPC_Rig_v04:FKScapula_R/NPC_Rig_v04:FKXScapula_R/NPC_Rig_v04:FKOffsetShoulder_R/NPC_Rig_v04:FKGlobalShoulder_R/NPC_Rig_v04:FKExtraShoulder_R/NPC_Rig_v04:FKShoulder_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_R/NPC_Rig_v04:FKExtraScapula_R/NPC_Rig_v04:FKScapula_R/NPC_Rig_v04:FKXScapula_R/NPC_Rig_v04:FKOffsetShoulder_R/NPC_Rig_v04:FKGlobalShoulder_R/NPC_Rig_v04:FKExtraShoulder_R/NPC_Rig_v04:FKShoulder_R/NPC_Rig_v04:FKXShoulder_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_R/NPC_Rig_v04:FKExtraScapula_R/NPC_Rig_v04:FKScapula_R/NPC_Rig_v04:FKXScapula_R/NPC_Rig_v04:FKOffsetShoulder_R/NPC_Rig_v04:FKGlobalShoulder_R/NPC_Rig_v04:FKExtraShoulder_R/NPC_Rig_v04:FKShoulder_R/NPC_Rig_v04:FKXShoulder_R/NPC_Rig_v04:FKOffsetElbow_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_R/NPC_Rig_v04:FKExtraScapula_R/NPC_Rig_v04:FKScapula_R/NPC_Rig_v04:FKXScapula_R/NPC_Rig_v04:FKOffsetShoulder_R/NPC_Rig_v04:FKGlobalShoulder_R/NPC_Rig_v04:FKExtraShoulder_R/NPC_Rig_v04:FKShoulder_R/NPC_Rig_v04:FKXShoulder_R/NPC_Rig_v04:FKOffsetElbow_R/NPC_Rig_v04:FKExtraElbow_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_R/NPC_Rig_v04:FKExtraScapula_R/NPC_Rig_v04:FKScapula_R/NPC_Rig_v04:FKXScapula_R/NPC_Rig_v04:FKOffsetShoulder_R/NPC_Rig_v04:FKGlobalShoulder_R/NPC_Rig_v04:FKExtraShoulder_R/NPC_Rig_v04:FKShoulder_R/NPC_Rig_v04:FKXShoulder_R/NPC_Rig_v04:FKOffsetElbow_R/NPC_Rig_v04:FKExtraElbow_R/NPC_Rig_v04:FKElbow_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_R/NPC_Rig_v04:FKExtraScapula_R/NPC_Rig_v04:FKScapula_R/NPC_Rig_v04:FKXScapula_R/NPC_Rig_v04:FKOffsetShoulder_R/NPC_Rig_v04:FKGlobalShoulder_R/NPC_Rig_v04:FKExtraShoulder_R/NPC_Rig_v04:FKShoulder_R/NPC_Rig_v04:FKXShoulder_R/NPC_Rig_v04:FKOffsetElbow_R/NPC_Rig_v04:FKExtraElbow_R/NPC_Rig_v04:FKElbow_R/NPC_Rig_v04:FKXElbow_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_R/NPC_Rig_v04:FKExtraScapula_R/NPC_Rig_v04:FKScapula_R/NPC_Rig_v04:FKXScapula_R/NPC_Rig_v04:FKOffsetShoulder_R/NPC_Rig_v04:FKGlobalShoulder_R/NPC_Rig_v04:FKExtraShoulder_R/NPC_Rig_v04:FKShoulder_R/NPC_Rig_v04:FKXShoulder_R/NPC_Rig_v04:FKOffsetElbow_R/NPC_Rig_v04:FKExtraElbow_R/NPC_Rig_v04:FKElbow_R/NPC_Rig_v04:FKXElbow_R/NPC_Rig_v04:FKOffsetWrist_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_R/NPC_Rig_v04:FKExtraScapula_R/NPC_Rig_v04:FKScapula_R/NPC_Rig_v04:FKXScapula_R/NPC_Rig_v04:FKOffsetShoulder_R/NPC_Rig_v04:FKGlobalShoulder_R/NPC_Rig_v04:FKExtraShoulder_R/NPC_Rig_v04:FKShoulder_R/NPC_Rig_v04:FKXShoulder_R/NPC_Rig_v04:FKOffsetElbow_R/NPC_Rig_v04:FKExtraElbow_R/NPC_Rig_v04:FKElbow_R/NPC_Rig_v04:FKXElbow_R/NPC_Rig_v04:FKOffsetWrist_R/NPC_Rig_v04:FKExtraWrist_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_R/NPC_Rig_v04:FKExtraScapula_R/NPC_Rig_v04:FKScapula_R/NPC_Rig_v04:FKXScapula_R/NPC_Rig_v04:FKOffsetShoulder_R/NPC_Rig_v04:FKGlobalShoulder_R/NPC_Rig_v04:FKExtraShoulder_R/NPC_Rig_v04:FKShoulder_R/NPC_Rig_v04:FKXShoulder_R/NPC_Rig_v04:FKOffsetElbow_R/NPC_Rig_v04:FKExtraElbow_R/NPC_Rig_v04:FKElbow_R/NPC_Rig_v04:FKXElbow_R/NPC_Rig_v04:FKOffsetWrist_R/NPC_Rig_v04:FKExtraWrist_R/NPC_Rig_v04:FKWrist_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToChest_M/NPC_Rig_v04:FKOffsetScapula_R/NPC_Rig_v04:FKExtraScapula_R/NPC_Rig_v04:FKScapula_R/NPC_Rig_v04:FKXScapula_R/NPC_Rig_v04:FKOffsetShoulder_R/NPC_Rig_v04:FKGlobalShoulder_R/NPC_Rig_v04:FKExtraShoulder_R/NPC_Rig_v04:FKShoulder_R/NPC_Rig_v04:FKXShoulder_R/NPC_Rig_v04:FKOffsetElbow_R/NPC_Rig_v04:FKExtraElbow_R/NPC_Rig_v04:FKElbow_R/NPC_Rig_v04:FKXElbow_R/NPC_Rig_v04:FKOffsetWrist_R/NPC_Rig_v04:FKExtraWrist_R/NPC_Rig_v04:FKWrist_R/NPC_Rig_v04:FKXWrist_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToRoot_M
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToRoot_M/NPC_Rig_v04:FKOffsetHip_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToRoot_M/NPC_Rig_v04:FKOffsetHip_L/NPC_Rig_v04:FKExtraHip_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToRoot_M/NPC_Rig_v04:FKOffsetHip_L/NPC_Rig_v04:FKExtraHip_L/NPC_Rig_v04:FKHip_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToRoot_M/NPC_Rig_v04:FKOffsetHip_L/NPC_Rig_v04:FKExtraHip_L/NPC_Rig_v04:FKHip_L/NPC_Rig_v04:FKXHip_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToRoot_M/NPC_Rig_v04:FKOffsetHip_L/NPC_Rig_v04:FKExtraHip_L/NPC_Rig_v04:FKHip_L/NPC_Rig_v04:FKXHip_L/NPC_Rig_v04:FKOffsetKnee_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToRoot_M/NPC_Rig_v04:FKOffsetHip_L/NPC_Rig_v04:FKExtraHip_L/NPC_Rig_v04:FKHip_L/NPC_Rig_v04:FKXHip_L/NPC_Rig_v04:FKOffsetKnee_L/NPC_Rig_v04:FKExtraKnee_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToRoot_M/NPC_Rig_v04:FKOffsetHip_L/NPC_Rig_v04:FKExtraHip_L/NPC_Rig_v04:FKHip_L/NPC_Rig_v04:FKXHip_L/NPC_Rig_v04:FKOffsetKnee_L/NPC_Rig_v04:FKExtraKnee_L/NPC_Rig_v04:FKKnee_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToRoot_M/NPC_Rig_v04:FKOffsetHip_L/NPC_Rig_v04:FKExtraHip_L/NPC_Rig_v04:FKHip_L/NPC_Rig_v04:FKXHip_L/NPC_Rig_v04:FKOffsetKnee_L/NPC_Rig_v04:FKExtraKnee_L/NPC_Rig_v04:FKKnee_L/NPC_Rig_v04:FKXKnee_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToRoot_M/NPC_Rig_v04:FKOffsetHip_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToRoot_M/NPC_Rig_v04:FKOffsetHip_R/NPC_Rig_v04:FKExtraHip_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToRoot_M/NPC_Rig_v04:FKOffsetHip_R/NPC_Rig_v04:FKExtraHip_R/NPC_Rig_v04:FKHip_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToRoot_M/NPC_Rig_v04:FKOffsetHip_R/NPC_Rig_v04:FKExtraHip_R/NPC_Rig_v04:FKHip_R/NPC_Rig_v04:FKXHip_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToRoot_M/NPC_Rig_v04:FKOffsetHip_R/NPC_Rig_v04:FKExtraHip_R/NPC_Rig_v04:FKHip_R/NPC_Rig_v04:FKXHip_R/NPC_Rig_v04:FKOffsetKnee_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToRoot_M/NPC_Rig_v04:FKOffsetHip_R/NPC_Rig_v04:FKExtraHip_R/NPC_Rig_v04:FKHip_R/NPC_Rig_v04:FKXHip_R/NPC_Rig_v04:FKOffsetKnee_R/NPC_Rig_v04:FKExtraKnee_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToRoot_M/NPC_Rig_v04:FKOffsetHip_R/NPC_Rig_v04:FKExtraHip_R/NPC_Rig_v04:FKHip_R/NPC_Rig_v04:FKXHip_R/NPC_Rig_v04:FKOffsetKnee_R/NPC_Rig_v04:FKExtraKnee_R/NPC_Rig_v04:FKKnee_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:FKSystem/NPC_Rig_v04:FKParentConstraintToRoot_M/NPC_Rig_v04:FKOffsetHip_R/NPC_Rig_v04:FKExtraHip_R/NPC_Rig_v04:FKHip_R/NPC_Rig_v04:FKXHip_R/NPC_Rig_v04:FKOffsetKnee_R/NPC_Rig_v04:FKExtraKnee_R/NPC_Rig_v04:FKKnee_R/NPC_Rig_v04:FKXKnee_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints/NPC_Rig_v04:IKParentConstraintHip_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints/NPC_Rig_v04:IKParentConstraintHip_L/NPC_Rig_v04:IKXOffsetHip_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints/NPC_Rig_v04:IKParentConstraintHip_L/NPC_Rig_v04:IKXOffsetHip_L/NPC_Rig_v04:IKXHip_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints/NPC_Rig_v04:IKParentConstraintHip_L/NPC_Rig_v04:IKXOffsetHip_L/NPC_Rig_v04:IKXHip_L/NPC_Rig_v04:IKXKnee_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints/NPC_Rig_v04:IKParentConstraintHip_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints/NPC_Rig_v04:IKParentConstraintHip_R/NPC_Rig_v04:IKXOffsetHip_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints/NPC_Rig_v04:IKParentConstraintHip_R/NPC_Rig_v04:IKXOffsetHip_R/NPC_Rig_v04:IKXHip_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints/NPC_Rig_v04:IKParentConstraintHip_R/NPC_Rig_v04:IKXOffsetHip_R/NPC_Rig_v04:IKXHip_R/NPC_Rig_v04:IKXKnee_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints/NPC_Rig_v04:IKParentConstraintShoulder_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints/NPC_Rig_v04:IKParentConstraintShoulder_L/NPC_Rig_v04:IKXOffsetShoulder_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints/NPC_Rig_v04:IKParentConstraintShoulder_L/NPC_Rig_v04:IKXOffsetShoulder_L/NPC_Rig_v04:IKXShoulder_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints/NPC_Rig_v04:IKParentConstraintShoulder_L/NPC_Rig_v04:IKXOffsetShoulder_L/NPC_Rig_v04:IKXShoulder_L/NPC_Rig_v04:IKXElbow_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints/NPC_Rig_v04:IKParentConstraintShoulder_L/NPC_Rig_v04:IKXOffsetShoulder_L/NPC_Rig_v04:IKXShoulder_L/NPC_Rig_v04:IKXElbow_L/NPC_Rig_v04:IKXWrist_L
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints/NPC_Rig_v04:IKParentConstraintShoulder_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints/NPC_Rig_v04:IKParentConstraintShoulder_R/NPC_Rig_v04:IKXOffsetShoulder_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints/NPC_Rig_v04:IKParentConstraintShoulder_R/NPC_Rig_v04:IKXOffsetShoulder_R/NPC_Rig_v04:IKXShoulder_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints/NPC_Rig_v04:IKParentConstraintShoulder_R/NPC_Rig_v04:IKXOffsetShoulder_R/NPC_Rig_v04:IKXShoulder_R/NPC_Rig_v04:IKXElbow_R
+        weight: 1
+      - path: NPC_Rig_v04:MotionSystem/NPC_Rig_v04:IKSystem/NPC_Rig_v04:IKJoints/NPC_Rig_v04:IKParentConstraintShoulder_R/NPC_Rig_v04:IKXOffsetShoulder_R/NPC_Rig_v04:IKXShoulder_R/NPC_Rig_v04:IKXElbow_R/NPC_Rig_v04:IKXWrist_R
+        weight: 1
+      maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     isReadable: 0
@@ -112,7 +468,897 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: NPC_test_anim_04(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:MotionSystem
+      parentName: NPC_test_anim_04(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKSystem
+      parentName: NPC_Rig_v04:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKParentConstraintToChest_M
+      parentName: NPC_Rig_v04:FKSystem
+      position: {x: 0.14349279, y: 12.247319, z: 9.419912}
+      rotation: {x: 0.43593127, y: -0.5358061, z: -0.47744197, w: 0.54307}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKOffsetScapula_R
+      parentName: NPC_Rig_v04:FKParentConstraintToChest_M
+      position: {x: -0.7556554, y: 0.2979464, z: -0.5359171}
+      rotation: {x: -0.04861834, y: -0.7100227, z: 0.12298861, w: 0.69164866}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKExtraScapula_R
+      parentName: NPC_Rig_v04:FKOffsetScapula_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKScapula_R
+      parentName: NPC_Rig_v04:FKExtraScapula_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKXScapula_R
+      parentName: NPC_Rig_v04:FKScapula_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKOffsetShoulder_R
+      parentName: NPC_Rig_v04:FKXScapula_R
+      position: {x: -1.2656506, y: -4.440892e-16, z: 8.881784e-15}
+      rotation: {x: 0.17482683, y: -0.030533165, z: -0.09086614, w: 0.97992176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKGlobalShoulder_R
+      parentName: NPC_Rig_v04:FKOffsetShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKExtraShoulder_R
+      parentName: NPC_Rig_v04:FKGlobalShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKShoulder_R
+      parentName: NPC_Rig_v04:FKExtraShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.24718644, y: -0.53576475, z: 0.25974867, w: 0.7644512}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKXShoulder_R
+      parentName: NPC_Rig_v04:FKShoulder_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKOffsetElbow_R
+      parentName: NPC_Rig_v04:FKXShoulder_R
+      position: {x: -2.2291183, y: -1.7763568e-15, z: 6.217249e-15}
+      rotation: {x: 0, y: -0, z: -0.05690092, w: 0.9983798}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKExtraElbow_R
+      parentName: NPC_Rig_v04:FKOffsetElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKElbow_R
+      parentName: NPC_Rig_v04:FKExtraElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.27452898, y: -0.049922865, z: -0.14643131, w: 0.94905186}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKXElbow_R
+      parentName: NPC_Rig_v04:FKElbow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKOffsetWrist_R
+      parentName: NPC_Rig_v04:FKXElbow_R
+      position: {x: -2.479813, y: -1.7763568e-15, z: -1.3322676e-14}
+      rotation: {x: -0.17695248, y: -0.021181313, z: 0.007875468, w: 0.9839599}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKExtraWrist_R
+      parentName: NPC_Rig_v04:FKOffsetWrist_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKWrist_R
+      parentName: NPC_Rig_v04:FKExtraWrist_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.2507508, y: -0.022076888, z: 0.012241011, w: 0.9677225}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKXWrist_R
+      parentName: NPC_Rig_v04:FKWrist_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKOffsetScapula_L
+      parentName: NPC_Rig_v04:FKParentConstraintToChest_M
+      position: {x: -0.7556554, y: 0.2979464, z: 0.5359171}
+      rotation: {x: 0.7100227, y: -0.048618335, z: 0.69164866, w: -0.122988604}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKExtraScapula_L
+      parentName: NPC_Rig_v04:FKOffsetScapula_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKScapula_L
+      parentName: NPC_Rig_v04:FKExtraScapula_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKXScapula_L
+      parentName: NPC_Rig_v04:FKScapula_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKOffsetShoulder_L
+      parentName: NPC_Rig_v04:FKXScapula_L
+      position: {x: 1.2656506, y: -1.3322676e-15, z: 1.7763568e-15}
+      rotation: {x: 0.17482683, y: -0.030533165, z: -0.09086614, w: 0.97992176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKGlobalShoulder_L
+      parentName: NPC_Rig_v04:FKOffsetShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKExtraShoulder_L
+      parentName: NPC_Rig_v04:FKGlobalShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKShoulder_L
+      parentName: NPC_Rig_v04:FKExtraShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.24087505, y: -0.5748342, z: 0.23540518, w: 0.7457407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKXShoulder_L
+      parentName: NPC_Rig_v04:FKShoulder_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKOffsetElbow_L
+      parentName: NPC_Rig_v04:FKXShoulder_L
+      position: {x: 2.2291183, y: 2.6645353e-15, z: -9.769963e-15}
+      rotation: {x: 0, y: -0, z: -0.05690092, w: 0.9983798}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKExtraElbow_L
+      parentName: NPC_Rig_v04:FKOffsetElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKElbow_L
+      parentName: NPC_Rig_v04:FKExtraElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.289685, y: -0.061251238, z: -0.13394935, w: 0.94572115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKXElbow_L
+      parentName: NPC_Rig_v04:FKElbow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKOffsetWrist_L
+      parentName: NPC_Rig_v04:FKXElbow_L
+      position: {x: 2.479813, y: -1.7763568e-15, z: 7.1054274e-15}
+      rotation: {x: -0.1769525, y: -0.021181313, z: 0.007875468, w: 0.9839599}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKExtraWrist_L
+      parentName: NPC_Rig_v04:FKOffsetWrist_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKWrist_L
+      parentName: NPC_Rig_v04:FKExtraWrist_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.20798011, y: 0.009530957, z: 0.017879201, w: 0.9779232}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKXWrist_L
+      parentName: NPC_Rig_v04:FKWrist_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKParentConstraintToRoot_M
+      parentName: NPC_Rig_v04:FKSystem
+      position: {x: 0.36953676, y: 8.804263, z: 9.420166}
+      rotation: {x: 0.5799865, y: -0.45690843, z: -0.48484835, w: 0.4687989}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKOffsetHip_R
+      parentName: NPC_Rig_v04:FKParentConstraintToRoot_M
+      position: {x: 0.24273826, y: -0.1922781, z: -0.75673485}
+      rotation: {x: -0.10499257, y: 0.99320966, z: -0.047846626, w: -0.014894791}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKExtraHip_R
+      parentName: NPC_Rig_v04:FKOffsetHip_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKHip_R
+      parentName: NPC_Rig_v04:FKExtraHip_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.040991817, y: -0.10581005, z: -0.055897903, w: 0.99196744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKXHip_R
+      parentName: NPC_Rig_v04:FKHip_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKOffsetKnee_R
+      parentName: NPC_Rig_v04:FKXHip_R
+      position: {x: -3.9184573, y: -1.110223e-16, z: -1.7763568e-15}
+      rotation: {x: 0, y: 0, z: 0.0533762, w: 0.9985745}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKExtraKnee_R
+      parentName: NPC_Rig_v04:FKOffsetKnee_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKKnee_R
+      parentName: NPC_Rig_v04:FKExtraKnee_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.006134122, y: 0.009980831, z: 0.07839267, w: 0.99685377}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKXKnee_R
+      parentName: NPC_Rig_v04:FKKnee_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKOffsetHip_L
+      parentName: NPC_Rig_v04:FKParentConstraintToRoot_M
+      position: {x: 0.24273826, y: -0.1922781, z: 0.75673485}
+      rotation: {x: 0.99320966, y: 0.10499256, z: 0.014894792, w: -0.047846626}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKExtraHip_L
+      parentName: NPC_Rig_v04:FKOffsetHip_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKHip_L
+      parentName: NPC_Rig_v04:FKExtraHip_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.04002152, y: 0.060519744, z: -0.059674997, w: 0.9955775}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKXHip_L
+      parentName: NPC_Rig_v04:FKHip_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKOffsetKnee_L
+      parentName: NPC_Rig_v04:FKXHip_L
+      position: {x: 3.9184573, y: -2.0539126e-15, z: 8.881784e-16}
+      rotation: {x: 0, y: 0, z: 0.0533762, w: 0.9985745}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKExtraKnee_L
+      parentName: NPC_Rig_v04:FKOffsetKnee_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKKnee_L
+      parentName: NPC_Rig_v04:FKExtraKnee_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.009495085, y: 0.04654721, z: 0.41842327, w: 0.90700895}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKXKnee_L
+      parentName: NPC_Rig_v04:FKKnee_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKSystem
+      parentName: NPC_Rig_v04:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKJoints
+      parentName: NPC_Rig_v04:IKSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKParentConstraintShoulder_R
+      parentName: NPC_Rig_v04:IKJoints
+      position: {x: 0.71650696, y: 13.020609, z: 0.42673624}
+      rotation: {x: 0.12978458, y: 0.7865837, z: 0.5990017, w: -0.07509327}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKXOffsetShoulder_R
+      parentName: NPC_Rig_v04:IKParentConstraintShoulder_R
+      position: {x: -1.2656506, y: -1.3322676e-15, z: 3.5527137e-15}
+      rotation: {x: 0.17482683, y: -0.030533165, z: -0.09086614, w: 0.97992176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKXShoulder_R
+      parentName: NPC_Rig_v04:IKXOffsetShoulder_R
+      position: {x: -4.440892e-16, y: 0, z: 0}
+      rotation: {x: -0.070324324, y: 0.028471384, z: 0.049996488, w: 0.99586356}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKXElbow_R
+      parentName: NPC_Rig_v04:IKXShoulder_R
+      position: {x: -2.2291183, y: -2.6645353e-15, z: 1.0658141e-14}
+      rotation: {x: 4.3802467e-15, y: -1.998284e-14, z: -0.26119977, w: 0.96528476}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKXWrist_R
+      parentName: NPC_Rig_v04:IKXElbow_R
+      position: {x: -2.479813, y: 0, z: -1.5987212e-14}
+      rotation: {x: -0.16321899, y: -0.055895187, z: 0.13092671, w: 0.97626513}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKParentConstraintHip_R
+      parentName: NPC_Rig_v04:IKJoints
+      position: {x: 0.36953676, y: 8.804263, z: 0.2832071}
+      rotation: {x: 0.5799865, y: -0.45690843, z: -0.48484835, w: 0.4687989}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKXOffsetHip_R
+      parentName: NPC_Rig_v04:IKParentConstraintHip_R
+      position: {x: 0.24273826, y: -0.1922781, z: -0.75673485}
+      rotation: {x: -0.10499257, y: 0.99320966, z: -0.047846626, w: -0.014894791}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKXHip_R
+      parentName: NPC_Rig_v04:IKXOffsetHip_R
+      position: {x: -0, y: 1.110223e-16, z: 0}
+      rotation: {x: 0.052333515, y: -0.069738664, z: -0.019307742, w: 0.9960045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKXKnee_R
+      parentName: NPC_Rig_v04:IKXHip_R
+      position: {x: -3.9184573, y: -9.992007e-16, z: -2.8865799e-15}
+      rotation: {x: -6.777222e-17, y: 3.471707e-17, z: 0.1508796, w: 0.98855215}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKParentConstraintShoulder_L
+      parentName: NPC_Rig_v04:IKJoints
+      position: {x: -0.35342374, y: 13.0615, z: 0.47577438}
+      rotation: {x: -0.061824515, y: -0.60101104, z: 0.7935737, w: -0.0721404}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKXOffsetShoulder_L
+      parentName: NPC_Rig_v04:IKParentConstraintShoulder_L
+      position: {x: 1.2656506, y: 8.881784e-16, z: -1.7763568e-15}
+      rotation: {x: 0.17482683, y: -0.030533165, z: -0.09086614, w: 0.97992176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKXShoulder_L
+      parentName: NPC_Rig_v04:IKXOffsetShoulder_L
+      position: {x: -2.220446e-16, y: 0, z: 1.7763568e-15}
+      rotation: {x: -0.070458055, y: 0.007060549, z: -0.0064954567, w: 0.9974686}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKXElbow_L
+      parentName: NPC_Rig_v04:IKXShoulder_L
+      position: {x: 2.2291183, y: 8.881784e-16, z: -1.0658141e-14}
+      rotation: {x: 2.6919477e-16, y: 3.077381e-15, z: -0.0003821086, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKXWrist_L
+      parentName: NPC_Rig_v04:IKXElbow_L
+      position: {x: 2.479813, y: 1.7763568e-15, z: 3.5527137e-15}
+      rotation: {x: -0.17233539, y: -0.02655183, z: -0.013252029, w: 0.98459125}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKParentConstraintHip_L
+      parentName: NPC_Rig_v04:IKJoints
+      position: {x: 0.36953676, y: 8.804263, z: 0.2832071}
+      rotation: {x: 0.5799865, y: -0.45690843, z: -0.48484835, w: 0.4687989}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKXOffsetHip_L
+      parentName: NPC_Rig_v04:IKParentConstraintHip_L
+      position: {x: 0.24273826, y: -0.1922781, z: 0.75673485}
+      rotation: {x: 0.99320966, y: 0.10499256, z: 0.014894792, w: -0.047846626}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKXHip_L
+      parentName: NPC_Rig_v04:IKXOffsetHip_L
+      position: {x: 1.7763568e-15, y: 5.551115e-17, z: 0}
+      rotation: {x: -0.05593726, y: 0.07200693, z: -0.08710255, w: 0.99201775}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:IKXKnee_L
+      parentName: NPC_Rig_v04:IKXHip_L
+      position: {x: 3.9184573, y: -9.436896e-16, z: -2.220446e-16}
+      rotation: {x: -2.473496e-16, y: -1.0744303e-15, z: 0.2334641, w: 0.97236544}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKIKSystem
+      parentName: NPC_Rig_v04:MotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKIKParentConstraintArm_R
+      parentName: NPC_Rig_v04:FKIKSystem
+      position: {x: 0.71650696, y: 13.020609, z: 9.563695}
+      rotation: {x: 0.12978455, y: 0.7865837, z: 0.5990017, w: -0.07509334}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKIKArm_R
+      parentName: NPC_Rig_v04:FKIKParentConstraintArm_R
+      position: {x: -2.3712115, y: -0.057351716, z: 0.6834868}
+      rotation: {x: 0.09625925, y: 0.74902266, z: 0.6512079, w: 0.075016215}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKIKParentConstraintLeg_R
+      parentName: NPC_Rig_v04:FKIKSystem
+      position: {x: 0.36953676, y: 8.804263, z: 9.420166}
+      rotation: {x: 0.5799865, y: -0.45690843, z: -0.48484835, w: 0.4687989}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKIKLeg_R
+      parentName: NPC_Rig_v04:FKIKParentConstraintLeg_R
+      position: {x: 1.2550685, y: -0.070014015, z: -1.7746779}
+      rotation: {x: 0.5381702, y: -0.45866418, z: -0.5381702, w: -0.45866418}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKIKParentConstraintArm_L
+      parentName: NPC_Rig_v04:FKIKSystem
+      position: {x: -0.35342374, y: 13.0615, z: 9.612733}
+      rotation: {x: -0.06182456, y: -0.60101104, z: 0.7935737, w: -0.07214042}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKIKArm_L
+      parentName: NPC_Rig_v04:FKIKParentConstraintArm_L
+      position: {x: 2.3712115, y: 0.057351716, z: -0.6834868}
+      rotation: {x: -0.07501621, y: -0.6512079, z: 0.74902266, w: 0.096259244}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKIKParentConstraintLeg_L
+      parentName: NPC_Rig_v04:FKIKSystem
+      position: {x: 0.36953676, y: 8.804263, z: 9.420166}
+      rotation: {x: 0.5799865, y: -0.45690843, z: -0.48484835, w: 0.4687989}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:FKIKLeg_L
+      parentName: NPC_Rig_v04:FKIKParentConstraintLeg_L
+      position: {x: 1.2550685, y: -0.07001402, z: 1.7746779}
+      rotation: {x: 0.5381702, y: -0.45866418, z: -0.5381702, w: -0.45866418}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:DeformationSystem
+      parentName: NPC_test_anim_04(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:Root_M
+      parentName: NPC_Rig_v04:DeformationSystem
+      position: {x: 0.000000059604645, y: 8.804263, z: 0.2832071}
+      rotation: {x: -0.5381703, y: 0.45866418, z: 0.5381702, w: -0.45866418}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: NPC_Rig_v04:Hip_L
+      parentName: NPC_Rig_v04:Root_M
+      position: {x: 0.24273826, y: -0.1922781, z: 0.75673485}
+      rotation: {x: 0.99320966, y: 0.10499244, z: 0.014894799, w: -0.047846574}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: NPC_Rig_v04:HipPart1_L
+      parentName: NPC_Rig_v04:Hip_L
+      position: {x: 1.3061525, y: -2.220446e-16, z: 2.220446e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: NPC_Rig_v04:HipPart2_L
+      parentName: NPC_Rig_v04:HipPart1_L
+      position: {x: 1.3061525, y: -2.220446e-16, z: 2.220446e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: NPC_Rig_v04:Knee_L
+      parentName: NPC_Rig_v04:HipPart2_L
+      position: {x: 1.3061525, y: -2.220446e-16, z: 2.220446e-16}
+      rotation: {x: -0.000000029802326, y: -0.000000027008356, z: 0.053376004, w: 0.9985745}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: NPC_Rig_v04:Ankle_L
+      parentName: NPC_Rig_v04:Knee_L
+      position: {x: 3.7726798, y: 4.8849813e-15, z: 1.3322676e-15}
+      rotation: {x: 0.076554894, y: 0.015329257, z: 0.028093249, w: -0.99655163}
+      scale: {x: 0.99999946, y: 0.9999997, z: 0.9999998}
+    - name: NPC_Rig_v04:Toes_L
+      parentName: NPC_Rig_v04:Ankle_L
+      position: {x: 0.7923736, y: -1.2850332, z: 1.5635138e-10}
+      rotation: {x: 0.021581829, y: 0.019644197, z: -0.67284197, w: 0.7392104}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000004}
+    - name: NPC_Rig_v04:ToesEnd_L
+      parentName: NPC_Rig_v04:Toes_L
+      position: {x: 0.6946481, y: -4.9960036e-16, z: 0.0000000011153031}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:Hip_R
+      parentName: NPC_Rig_v04:Root_M
+      position: {x: 0.24273826, y: -0.1922781, z: -0.75673485}
+      rotation: {x: 0.10499243, y: -0.99320966, z: 0.04784662, w: 0.014894755}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: NPC_Rig_v04:HipPart1_R
+      parentName: NPC_Rig_v04:Hip_R
+      position: {x: -1.3061525, y: -4.440892e-16, z: -7.2164497e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: NPC_Rig_v04:HipPart2_R
+      parentName: NPC_Rig_v04:HipPart1_R
+      position: {x: -1.3061525, y: -4.440892e-16, z: -7.2164497e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: NPC_Rig_v04:Knee_R
+      parentName: NPC_Rig_v04:HipPart2_R
+      position: {x: -1.3061525, y: 0, z: -6.661338e-16}
+      rotation: {x: -0.0000000110594565, y: -0.00000002421439, z: 0.05337594, w: 0.9985745}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: NPC_Rig_v04:Ankle_R
+      parentName: NPC_Rig_v04:Knee_R
+      position: {x: -3.7726798, y: 5.551115e-16, z: -2.9976022e-15}
+      rotation: {x: -0.07655488, y: -0.015329242, z: -0.028093278, w: 0.99655163}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000004}
+    - name: NPC_Rig_v04:Toes_R
+      parentName: NPC_Rig_v04:Ankle_R
+      position: {x: -0.7923736, y: 1.2850332, z: 1.7613233e-10}
+      rotation: {x: 0.021580944, y: 0.019643327, z: -0.6728419, w: 0.7392106}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000002}
+    - name: NPC_Rig_v04:ToesEnd_R
+      parentName: NPC_Rig_v04:Toes_R
+      position: {x: -0.6946481, y: -1.7796875e-13, z: 0.0000016214638}
+      rotation: {x: 0.00000011003071, y: 0.0000011679144, z: -1.2850646e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:RootPart1_M
+      parentName: NPC_Rig_v04:Root_M
+      position: {x: -0.6292958, y: 6.661338e-16, z: -2.220446e-16}
+      rotation: {x: -0, y: -0, z: 0.000000029802322, w: 1}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000004}
+    - name: NPC_Rig_v04:RootPart2_M
+      parentName: NPC_Rig_v04:RootPart1_M
+      position: {x: -0.6292958, y: -8.881784e-16, z: -2.220446e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: NPC_Rig_v04:Spine1_M
+      parentName: NPC_Rig_v04:RootPart2_M
+      position: {x: -0.6292958, y: 2.220446e-16, z: -1.3322676e-15}
+      rotation: {x: 0.000000029802322, y: 0.000000029802322, z: -0.14029539, w: -0.99010974}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000004}
+    - name: NPC_Rig_v04:Spine1Part1_M
+      parentName: NPC_Rig_v04:Spine1_M
+      position: {x: -0.53509027, y: 4.440892e-16, z: 0}
+      rotation: {x: -0, y: -0, z: -8.881783e-16, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: NPC_Rig_v04:Spine1Part2_M
+      parentName: NPC_Rig_v04:Spine1Part1_M
+      position: {x: -0.53509027, y: 0, z: -4.440892e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:Chest_M
+      parentName: NPC_Rig_v04:Spine1Part2_M
+      position: {x: -0.53509027, y: 4.440892e-16, z: -4.9960036e-16}
+      rotation: {x: -0.000000029802326, y: 0.000000029802326, z: -0.044420708, w: 0.99901295}
+      scale: {x: 0.999999, y: 0.99999857, z: 0.999999}
+    - name: NPC_Rig_v04:Neck_M
+      parentName: NPC_Rig_v04:Chest_M
+      position: {x: -1.4865681, y: -4.440892e-16, z: 3.719247e-15}
+      rotation: {x: -0.0000000031611087, y: 0.00000005897423, z: 0.01822878, w: -0.99983394}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000008}
+    - name: NPC_Rig_v04:NeckPart1_M
+      parentName: NPC_Rig_v04:Neck_M
+      position: {x: -0.17461757, y: 7.4940054e-16, z: -3.330669e-16}
+      rotation: {x: -0, y: -0, z: 2.8449459e-15, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: NPC_Rig_v04:NeckPart2_M
+      parentName: NPC_Rig_v04:NeckPart1_M
+      position: {x: -0.17461757, y: -6.661338e-16, z: 5.551115e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: NPC_Rig_v04:Head_M
+      parentName: NPC_Rig_v04:NeckPart2_M
+      position: {x: -0.17461757, y: -4.440892e-16, z: -4.440892e-16}
+      rotation: {x: 0.000000029802319, y: 0.000000029802319, z: -0.0032676156, w: 0.99999464}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: NPC_Rig_v04:HeadEnd_M
+      parentName: NPC_Rig_v04:Head_M
+      position: {x: -2.5663848, y: -4.4131365e-15, z: 4.1806852e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:Eye_R
+      parentName: NPC_Rig_v04:Head_M
+      position: {x: -1.1529979, y: 0.85637414, z: -0.4466626}
+      rotation: {x: 0, y: 0, z: -0.7141172, w: 0.70002615}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:EyeEnd_R
+      parentName: NPC_Rig_v04:Eye_R
+      position: {x: -0.17087016, y: -8.881784e-15, z: 2.1094237e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:Jaw_M
+      parentName: NPC_Rig_v04:Head_M
+      position: {x: -0.5163904, y: 0.19710328, z: -7.771561e-16}
+      rotation: {x: 0, y: 0, z: -0.82092005, w: 0.57104313}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:JawEnd_M
+      parentName: NPC_Rig_v04:Jaw_M
+      position: {x: -0.91323316, y: 1.7763568e-15, z: -2.1684043e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:Eye_L
+      parentName: NPC_Rig_v04:Head_M
+      position: {x: -1.1529979, y: 0.85637414, z: 0.4466626}
+      rotation: {x: 0, y: 0, z: -0.7141172, w: 0.70002615}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:EyeEnd_L
+      parentName: NPC_Rig_v04:Eye_L
+      position: {x: -0.17087016, y: -7.1054274e-15, z: -2.164935e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:Scapula_L
+      parentName: NPC_Rig_v04:Chest_M
+      position: {x: -0.7556554, y: 0.2979464, z: 0.5359171}
+      rotation: {x: 0.7100226, y: -0.04861844, z: 0.69164866, w: -0.12298858}
+      scale: {x: 1.0000011, y: 1.0000007, z: 1.0000005}
+    - name: NPC_Rig_v04:Shoulder_L
+      parentName: NPC_Rig_v04:Scapula_L
+      position: {x: 1.2656506, y: -1.7763568e-15, z: 0}
+      rotation: {x: 0.17482683, y: -0.030533027, z: -0.09086697, w: 0.9799217}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1.0000005}
+    - name: NPC_Rig_v04:ShoulderPart1_L
+      parentName: NPC_Rig_v04:Shoulder_L
+      position: {x: 0.7430395, y: -8.881784e-16, z: -3.996803e-15}
+      rotation: {x: -0, y: -0, z: 0.0000000013969839, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: NPC_Rig_v04:ShoulderPart2_L
+      parentName: NPC_Rig_v04:ShoulderPart1_L
+      position: {x: 0.7430395, y: -8.881784e-16, z: -3.996803e-15}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: NPC_Rig_v04:Elbow_L
+      parentName: NPC_Rig_v04:ShoulderPart2_L
+      position: {x: 0.7430395, y: -3.330669e-16, z: -8.881784e-16}
+      rotation: {x: 0.000000026280759, y: 0.0000000027939677, z: -0.056899343, w: 0.99837995}
+      scale: {x: 1, y: 0.9999997, z: 1.0000001}
+    - name: NPC_Rig_v04:ElbowPart1_L
+      parentName: NPC_Rig_v04:Elbow_L
+      position: {x: 0.8266044, y: 1.3322676e-15, z: 1.3322676e-15}
+      rotation: {x: -0, y: -0, z: -7.342759e-17, w: 1}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.9999998}
+    - name: NPC_Rig_v04:ElbowPart2_L
+      parentName: NPC_Rig_v04:ElbowPart1_L
+      position: {x: 0.8266044, y: 1.3322676e-15, z: 1.3322676e-15}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: NPC_Rig_v04:Wrist_L
+      parentName: NPC_Rig_v04:ElbowPart2_L
+      position: {x: 0.8266044, y: 2.220446e-15, z: 3.996803e-15}
+      rotation: {x: -0.17695259, y: -0.021181148, z: 0.007874705, w: 0.9839599}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: NPC_Rig_v04:IndexFinger1_L
+      parentName: NPC_Rig_v04:Wrist_L
+      position: {x: 1.1427476, y: -0.26590934, z: 0.05244761}
+      rotation: {x: 0.007031698, y: -0.034259345, z: 0.00014649892, w: 0.9993882}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: NPC_Rig_v04:IndexFinger2_L
+      parentName: NPC_Rig_v04:IndexFinger1_L
+      position: {x: 0.28281254, y: 6.661338e-16, z: 6.661338e-15}
+      rotation: {x: 0.000000006519258, y: 0.013760105, z: -0.00015768493, w: 0.99990535}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: NPC_Rig_v04:IndexFinger3_L
+      parentName: NPC_Rig_v04:IndexFinger2_L
+      position: {x: 0.24149501, y: -1.110223e-15, z: -6.661338e-15}
+      rotation: {x: -0.01428857, y: 0.03649579, z: 0.0001036329, w: 0.99923164}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: NPC_Rig_v04:IndexFinger4_L
+      parentName: NPC_Rig_v04:IndexFinger3_L
+      position: {x: 0.2117576, y: 6.661338e-15, z: -3.7303494e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:MiddleFinger1_L
+      parentName: NPC_Rig_v04:Wrist_L
+      position: {x: 1.1254132, y: 2.7755576e-15, z: -2.220446e-15}
+      rotation: {x: 0.0026696755, y: -0.06939705, z: 0.029280476, w: 0.9971557}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: NPC_Rig_v04:MiddleFinger2_L
+      parentName: NPC_Rig_v04:MiddleFinger1_L
+      position: {x: 0.31064096, y: -5.258949e-11, z: 7.327472e-15}
+      rotation: {x: 0.0003195237, y: 0.021989373, z: 0.000015410214, w: 0.9997581}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: NPC_Rig_v04:MiddleFinger3_L
+      parentName: NPC_Rig_v04:MiddleFinger2_L
+      position: {x: 0.17127015, y: 2.220446e-16, z: 4.6518345e-14}
+      rotation: {x: 0.00046586804, y: 0.032032594, z: -0.0000027074548, w: 0.99948674}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: NPC_Rig_v04:MiddleFinger4_L
+      parentName: NPC_Rig_v04:MiddleFinger3_L
+      position: {x: 0.20934604, y: -4.440892e-16, z: -1.0125234e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:Cup_L
+      parentName: NPC_Rig_v04:Wrist_L
+      position: {x: 0.19902481, y: 0.109696686, z: -0.008010082}
+      rotation: {x: -0.03690813, y: -0.00040898164, z: -0.0039996468, w: 0.99931055}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
+    - name: NPC_Rig_v04:PinkyFinger1_L
+      parentName: NPC_Rig_v04:Cup_L
+      position: {x: 0.8066833, y: 0.3068242, z: 0.0041810405}
+      rotation: {x: 0.048773676, y: -0.035400473, z: -0.014577916, w: 0.9980759}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: NPC_Rig_v04:PinkyFinger2_L
+      parentName: NPC_Rig_v04:PinkyFinger1_L
+      position: {x: 0.23273225, y: 5.551115e-16, z: 0}
+      rotation: {x: 0.002326533, y: 0.0062766215, z: 0.00028590506, w: 0.9999776}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: NPC_Rig_v04:PinkyFinger3_L
+      parentName: NPC_Rig_v04:PinkyFinger2_L
+      position: {x: 0.14230168, y: 6.1062266e-15, z: 5.3179683e-14}
+      rotation: {x: 0.01871356, y: 0.041096974, z: 0.0010060685, w: 0.9989794}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: NPC_Rig_v04:PinkyFinger4_L
+      parentName: NPC_Rig_v04:PinkyFinger3_L
+      position: {x: 0.1779234, y: 3.1086245e-15, z: -5.5067062e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:RingFinger1_L
+      parentName: NPC_Rig_v04:Cup_L
+      position: {x: 0.84804434, y: 0.10255185, z: 0.0005876476}
+      rotation: {x: 0.038461182, y: -0.031146146, z: 0.02141819, w: 0.99854493}
+      scale: {x: 1, y: 1.0000001, z: 0.9999998}
+    - name: NPC_Rig_v04:RingFinger2_L
+      parentName: NPC_Rig_v04:RingFinger1_L
+      position: {x: 0.28952414, y: 1.110223e-16, z: -5.551115e-15}
+      rotation: {x: -0.0024716146, y: -0.018848263, z: -0.00008488237, w: 0.99981934}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: NPC_Rig_v04:RingFinger3_L
+      parentName: NPC_Rig_v04:RingFinger2_L
+      position: {x: 0.17506027, y: 2.7755576e-15, z: -1.3122836e-13}
+      rotation: {x: 0.0049418304, y: 0.03769011, z: 0.00007652596, w: 0.99927723}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000005}
+    - name: NPC_Rig_v04:RingFinger4_L
+      parentName: NPC_Rig_v04:RingFinger3_L
+      position: {x: 0.19369355, y: 7.327472e-15, z: 2.3092639e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:ThumbFinger1_L
+      parentName: NPC_Rig_v04:Wrist_L
+      position: {x: 0.4147041, y: -0.3445303, z: 0.17553802}
+      rotation: {x: 0.4479813, y: -0.05954904, z: 0.33210522, w: -0.82793283}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: NPC_Rig_v04:ThumbFinger2_L
+      parentName: NPC_Rig_v04:ThumbFinger1_L
+      position: {x: 0.3508825, y: 1.3322676e-15, z: -8.881784e-16}
+      rotation: {x: -0.00013647974, y: 0.017456144, z: -0.007813469, w: 0.99981713}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000005}
+    - name: NPC_Rig_v04:ThumbFinger3_L
+      parentName: NPC_Rig_v04:ThumbFinger2_L
+      position: {x: 0.29217756, y: 2.7755576e-16, z: -8.881784e-16}
+      rotation: {x: 0.00013647108, y: -0.017456647, z: 0.007814189, w: 0.99981713}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000006}
+    - name: NPC_Rig_v04:ThumbFinger4_L
+      parentName: NPC_Rig_v04:ThumbFinger3_L
+      position: {x: 0.2655473, y: 1.7763568e-15, z: -2.6645353e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:Scapula_R
+      parentName: NPC_Rig_v04:Chest_M
+      position: {x: -0.7556554, y: 0.2979464, z: -0.5359171}
+      rotation: {x: 0.048618414, y: 0.7100227, z: -0.12298853, w: -0.69164866}
+      scale: {x: 1.0000008, y: 1.0000005, z: 1.0000005}
+    - name: NPC_Rig_v04:Shoulder_R
+      parentName: NPC_Rig_v04:Scapula_R
+      position: {x: -1.2656506, y: 4.440892e-16, z: 1.0658141e-14}
+      rotation: {x: 0.17482683, y: -0.030533012, z: -0.090866975, w: 0.9799217}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1}
+    - name: NPC_Rig_v04:ShoulderPart1_R
+      parentName: NPC_Rig_v04:Shoulder_R
+      position: {x: -0.7430395, y: 1.3322676e-15, z: 1.7763568e-15}
+      rotation: {x: -0, y: -0, z: -9.313226e-10, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: NPC_Rig_v04:ShoulderPart2_R
+      parentName: NPC_Rig_v04:ShoulderPart1_R
+      position: {x: -0.7430395, y: 1.3322676e-15, z: 1.7763568e-15}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: NPC_Rig_v04:Elbow_R
+      parentName: NPC_Rig_v04:ShoulderPart2_R
+      position: {x: -0.7430395, y: -8.7430063e-16, z: 4.440892e-15}
+      rotation: {x: -0.000000033003744, y: 0.0000000037252903, z: -0.056899346, w: 0.99837995}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1}
+    - name: NPC_Rig_v04:ElbowPart1_R
+      parentName: NPC_Rig_v04:Elbow_R
+      position: {x: -0.8266044, y: -1.7763568e-15, z: -3.1086245e-15}
+      rotation: {x: -0, y: -0, z: 1.2294853e-16, w: 1}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.9999998}
+    - name: NPC_Rig_v04:ElbowPart2_R
+      parentName: NPC_Rig_v04:ElbowPart1_R
+      position: {x: -0.8266044, y: -1.7763568e-15, z: -3.1086245e-15}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: NPC_Rig_v04:Wrist_R
+      parentName: NPC_Rig_v04:ElbowPart2_R
+      position: {x: -0.8266044, y: -3.996803e-15, z: -4.8849813e-15}
+      rotation: {x: -0.17695244, y: -0.021181203, z: 0.007874727, w: 0.98396003}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: NPC_Rig_v04:IndexFinger1_R
+      parentName: NPC_Rig_v04:Wrist_R
+      position: {x: -1.1427476, y: 0.26590934, z: -0.05244761}
+      rotation: {x: 0.007031757, y: -0.034259338, z: 0.00014650579, w: 0.9993882}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: NPC_Rig_v04:IndexFinger2_R
+      parentName: NPC_Rig_v04:IndexFinger1_R
+      position: {x: -0.28281254, y: -4.440892e-16, z: -6.7723605e-15}
+      rotation: {x: -0.00000014202669, y: 0.01376009, z: -0.00015768553, w: 0.99990535}
+      scale: {x: 0.9999997, y: 0.9999998, z: 1.0000001}
+    - name: NPC_Rig_v04:IndexFinger3_R
+      parentName: NPC_Rig_v04:IndexFinger2_R
+      position: {x: -0.24149501, y: 1.7763568e-15, z: 6.3837824e-15}
+      rotation: {x: -0.0142886005, y: 0.036495797, z: 0.00010363518, w: 0.9992317}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: NPC_Rig_v04:IndexFinger4_R
+      parentName: NPC_Rig_v04:IndexFinger3_R
+      position: {x: -0.2117576, y: -6.4392935e-15, z: 3.5527137e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:MiddleFinger1_R
+      parentName: NPC_Rig_v04:Wrist_R
+      position: {x: -1.1254132, y: -1.8873791e-15, z: -4.440892e-16}
+      rotation: {x: 0.0026696152, y: -0.06939705, z: 0.029280487, w: 0.9971558}
+      scale: {x: 0.9999997, y: 1, z: 0.99999994}
+    - name: NPC_Rig_v04:MiddleFinger2_R
+      parentName: NPC_Rig_v04:MiddleFinger1_R
+      position: {x: -0.31064096, y: 5.2588933e-11, z: -8.437695e-15}
+      rotation: {x: 0.00031949408, y: 0.021989359, z: 0.0000154111, w: 0.9997581}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: NPC_Rig_v04:MiddleFinger3_R
+      parentName: NPC_Rig_v04:MiddleFinger2_R
+      position: {x: -0.17127015, y: -7.771561e-16, z: -4.6074256e-14}
+      rotation: {x: 0.000465868, y: 0.032032613, z: -0.0000027176573, w: 0.99948674}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000001}
+    - name: NPC_Rig_v04:MiddleFinger4_R
+      parentName: NPC_Rig_v04:MiddleFinger3_R
+      position: {x: -0.20934604, y: 0, z: 1.0125234e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:Cup_R
+      parentName: NPC_Rig_v04:Wrist_R
+      position: {x: -0.19902481, y: -0.109696686, z: 0.008010082}
+      rotation: {x: -0.03690822, y: -0.00040897913, z: -0.003999638, w: 0.9993106}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: NPC_Rig_v04:PinkyFinger1_R
+      parentName: NPC_Rig_v04:Cup_R
+      position: {x: -0.8066833, y: -0.3068242, z: -0.0041810405}
+      rotation: {x: 0.04877368, y: -0.03540048, z: -0.014577932, w: 0.99807584}
+      scale: {x: 0.9999997, y: 1, z: 1}
+    - name: NPC_Rig_v04:PinkyFinger2_R
+      parentName: NPC_Rig_v04:PinkyFinger1_R
+      position: {x: -0.23273225, y: -1.110223e-15, z: 3.7747583e-15}
+      rotation: {x: 0.002326645, y: 0.0062766476, z: 0.0002859166, w: 0.9999775}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: NPC_Rig_v04:PinkyFinger3_R
+      parentName: NPC_Rig_v04:PinkyFinger2_R
+      position: {x: -0.14230168, y: -6.217249e-15, z: -5.107026e-14}
+      rotation: {x: 0.018713307, y: 0.04109994, z: 0.0010058607, w: 0.99897933}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000001}
+    - name: NPC_Rig_v04:PinkyFinger4_R
+      parentName: NPC_Rig_v04:PinkyFinger3_R
+      position: {x: -0.1779234, y: -3.1086245e-15, z: 5.684342e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:RingFinger1_R
+      parentName: NPC_Rig_v04:Cup_R
+      position: {x: -0.84804434, y: -0.10255185, z: -0.0005876476}
+      rotation: {x: 0.038461182, y: -0.03114615, z: 0.021418177, w: 0.99854493}
+      scale: {x: 0.99999994, y: 1.0000004, z: 0.99999994}
+    - name: NPC_Rig_v04:RingFinger2_R
+      parentName: NPC_Rig_v04:RingFinger1_R
+      position: {x: -0.28952414, y: 1.7208457e-15, z: 7.771561e-15}
+      rotation: {x: -0.0024716817, y: -0.018848266, z: -0.000084872474, w: 0.99981934}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: NPC_Rig_v04:RingFinger3_R
+      parentName: NPC_Rig_v04:RingFinger2_R
+      position: {x: -0.17506027, y: -2.8865799e-15, z: 1.284528e-13}
+      rotation: {x: 0.0049420088, y: 0.037690118, z: 0.000076511446, w: 0.99927723}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000002}
+    - name: NPC_Rig_v04:RingFinger4_R
+      parentName: NPC_Rig_v04:RingFinger3_R
+      position: {x: -0.19369355, y: -7.5495166e-15, z: -2.4868996e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:ThumbFinger1_R
+      parentName: NPC_Rig_v04:Wrist_R
+      position: {x: -0.4147041, y: 0.3445303, z: -0.17553802}
+      rotation: {x: -0.44798157, y: 0.059548773, z: -0.33210495, w: 0.8279329}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: NPC_Rig_v04:ThumbFinger2_R
+      parentName: NPC_Rig_v04:ThumbFinger1_R
+      position: {x: -0.3508825, y: -1.7763568e-15, z: -2.6645353e-15}
+      rotation: {x: -0.00013643876, y: 0.017456256, z: -0.007813565, w: 0.99981713}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: NPC_Rig_v04:ThumbFinger3_R
+      parentName: NPC_Rig_v04:ThumbFinger2_R
+      position: {x: -0.29217756, y: -3.1641356e-15, z: -2.6645353e-15}
+      rotation: {x: 0.0001364301, y: -0.017456634, z: 0.00781423, w: 0.99981713}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000004}
+    - name: NPC_Rig_v04:ThumbFinger4_R
+      parentName: NPC_Rig_v04:ThumbFinger3_R
+      position: {x: -0.2655473, y: 1.7763568e-15, z: 1.7763568e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:Geometry
+      parentName: NPC_test_anim_04(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:head_geo
+      parentName: NPC_Rig_v04:Geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NPC_Rig_v04:body_geo
+      parentName: NPC_Rig_v04:Geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -129,7 +1375,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
