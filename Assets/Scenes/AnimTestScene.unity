@@ -207,6 +207,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0.07765481
       objectReference: {fileID: 0}
+    - target: {fileID: -775727693644561367, guid: 9f141cae7049f414bbc8be5589c4cd15, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5296386894a585644bc3ce494549e5e7, type: 2}
     - target: {fileID: 919132149155446097, guid: 9f141cae7049f414bbc8be5589c4cd15, type: 3}
       propertyPath: m_Name
       value: NPC_test_anim_04
