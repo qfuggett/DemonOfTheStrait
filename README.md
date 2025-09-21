@@ -1,4 +1,4 @@
-# 🎮 Threshold
+# 🎮 The Demon of the Strait
 
 *A time simulation horror & survival game built in Unity.*
 
@@ -74,12 +74,12 @@ ssh-add ~/.ssh/id_ed25519`
 
 - Clone the repository using the ssh method: 
 
-`git clone git@github.com:qfuggett/Threshold.git`
+`git clone git@github.com:qfuggett/DemonOfTheStrait.git`
 
 #### 🖥️ Clone via Github desktop
 
 - Open GitHub Desktop → File → Clone Repository
-- Paste this SSH URL: `git@github.com:qfuggett/Threshold.git`
+- Paste this SSH URL: `git@github.com:qfuggett/DemonOfTheStrait.git`
 
 **OR**
 
@@ -89,7 +89,7 @@ ssh-add ~/.ssh/id_ed25519`
 
 ### 🌐 5. Open project in Unity Hub
 
-- Click 'Locate' and find and select the "Threshold" project to open.
+- Click 'Locate' and find and select the "DemonOfTheStrait" project to open.
 <br/>
 
 **<div align="center">🧛🏽Velcome to the project!!😱</div>**
