@@ -9,27 +9,32 @@ public class CameraController : MonoBehaviour
 
     void Awake()
     {
-        // We can set to false later, or avoid locking the cursor in the center of the screen
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = true;
+        Cursor.visible = false;
+        if (playerBody != null)
+        {
+            yRotation = playerBody.eulerAngles.y;
+        }
     }
 
     void Update()
     {
-        float mouseX = Mouse.current.delta.x.ReadValue() * mouseSensitivity * Time.deltaTime;
-        float mouseY = Mouse.current.delta.y.ReadValue() * mouseSensitivity * Time.deltaTime;
+        if (Mouse.current == null)
+        {
+            return;
+        }
 
-        // -= because a positive mouse Y movement means moving the mouse up, which should cause a negative rotation around the X-axis (looking up).
-        xRotation -= mouseY;
-        yRotation += mouseX;
-        // Clamp rotation to prevent the camera from flipping
-        xRotation = Mathf.Clamp(xRotation, -45f, 45f);
-        yRotation = Mathf.Clamp(yRotation, -45f, 45f);
+        Vector2 mouseDelta = Mouse.current.delta.ReadValue() * mouseSensitivity * Time.deltaTime;
 
-        // Apply the vertical rotation to the camera itself (the object this script is on).
-        // We rotate around the X-axis to look up and down, rotate the Y-axis to look left and right
-        // We can change this based on keyboard inputs instead of the mouse
-        transform.localRotation = Quaternion.Euler(xRotation, yRotation, 0f);
+        // Positive Y mouse movement looks up which is a negative X-axis rotation.
+        xRotation = Mathf.Clamp(xRotation - mouseDelta.y, -90f, 90f);
+        yRotation += mouseDelta.x;
 
+        // Apply pitch to the camera and yaw to the player body so the character can turn 360°.
+        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        if (playerBody != null)
+        {
+            playerBody.rotation = Quaternion.Euler(0f, yRotation, 0f);
+        }
     }
 }

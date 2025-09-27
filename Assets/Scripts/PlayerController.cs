@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 5f;
     public Rigidbody rb;
     private bool isGrounded;
+    private bool jumpQueued;
 
 
     void Awake()
@@ -16,29 +17,52 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector2 movementInput = Keyboard.current.wKey.isPressed ? Vector2.up : 
-                                Keyboard.current.sKey.isPressed? Vector2.down :
-                                Vector2.zero;
-        if (Keyboard.current.aKey.isPressed) movementInput.x -= 1;
-        if (Keyboard.current.dKey.isPressed) movementInput.x += 1;
+        if (Keyboard.current == null)
+        {
+            return;
+        }
 
-        // Calculate the movement vector based on the camera's direction.
-        Vector3 cameraForward = Camera.main.transform.forward;
-        Vector3 cameraRight = Camera.main.transform.right;
-        cameraForward.y = 0; //move on horizontal plane
-        cameraRight.y = 0;
-        cameraForward.Normalize();
-        cameraRight.Normalize();
+        Vector2 movementInput = Vector2.zero;
+        if (Keyboard.current.wKey.isPressed) movementInput.y += 1f;
+        if (Keyboard.current.sKey.isPressed) movementInput.y -= 1f;
+        if (Keyboard.current.aKey.isPressed) movementInput.x -= 1f;
+        if (Keyboard.current.dKey.isPressed) movementInput.x += 1f;
 
-        Vector3 moveDirection = (cameraForward * movementInput.y + cameraRight * movementInput.x).normalized;
-        rb.linearVelocity = new Vector3(moveDirection.x * moveSpeed, rb.linearVelocity.y, moveDirection.z * moveSpeed);
-    }
-    
-    void Update()
-    {
-        if (Keyboard.current.spaceKey.wasPressedThisFrame && isGrounded)
+        if (movementInput.sqrMagnitude > 1f)
+        {
+            movementInput.Normalize();
+        }
+
+        Vector3 forward = transform.forward;
+        Vector3 right = transform.right;
+        forward.y = 0f;
+        right.y = 0f;
+        forward.Normalize();
+        right.Normalize();
+
+        Vector3 moveDirection = (forward * movementInput.y + right * movementInput.x);
+        Vector3 targetVelocity = moveDirection * moveSpeed;
+        targetVelocity.y = rb.linearVelocity.y;
+        rb.linearVelocity = targetVelocity;
+
+        if (jumpQueued)
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            jumpQueued = false;
+            isGrounded = false;
+        }
+    }
+
+    void Update()
+    {
+        if (Keyboard.current == null)
+        {
+            return;
+        }
+
+        if (Keyboard.current.spaceKey.wasPressedThisFrame && isGrounded)
+        {
+            jumpQueued = true;
         }
     }
 
