@@ -8,6 +8,8 @@ TagManager:
   - npc1
   - camp
   - lure
+  - npc
+  - boundary
   layers:
   - Default
   - TransparentFX
