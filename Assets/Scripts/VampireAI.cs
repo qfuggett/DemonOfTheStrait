@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using PixelCrushers.DialogueSystem;
+// using PixelCrushers.DialogueSystem;
 public class VampireAI : MonoBehaviour
 {
     public enum VampireState { FreeRoam, DoorCamp, Lure, Dialogue }
@@ -18,7 +18,7 @@ public class VampireAI : MonoBehaviour
     private Transform targetDoor;
     private Transform targetLureDoor;
 
-    private bool wasInDialogue = false;
+    // private bool wasInDialogue = false;
 
     void Start()
     {
@@ -47,22 +47,22 @@ public class VampireAI : MonoBehaviour
             case VampireState.Lure:
                 Lure();
                 break;
-            case VampireState.Dialogue:
-                Dialogue();
-                break;
+                // case VampireState.Dialogue:
+                //     Dialogue();
+                //     break;
         }
 
-        if (currentState != VampireState.Dialogue && stateTimer <= 0f)
-        {
-            AdvanceState();
-        }
+        // if (currentState != VampireState.Dialogue && stateTimer <= 0f)
+        // {
+        //     AdvanceState();
+        // }
 
-        // After switch: check for dialogue end and resume
-        if (currentState == VampireState.Dialogue && !DialogueManager.IsConversationActive && wasInDialogue)
-        {
-            wasInDialogue = false;
-            AdvanceState();
-        }
+        // // After switch: check for dialogue end and resume
+        // if (currentState == VampireState.Dialogue && !DialogueManager.IsConversationActive && wasInDialogue)
+        // {
+        //     wasInDialogue = false;
+        //     AdvanceState();
+        // }
     }
 
     void FreeRoam() // Add pathfinding once environment is set up
@@ -170,16 +170,16 @@ public class VampireAI : MonoBehaviour
         Debug.Log("Vampire is attempting to lure a nearby NPC...");
     }
 
-    void Dialogue()
-    {
-        if (!wasInDialogue)
-        {
-            wasInDialogue = true;
-            int chance = Random.Range(0, 100);
-            string selectedConversation = (chance < 80) ? "NPCVampireLureDialogue" : "GameOver";
-            DialogueManager.StartConversation(selectedConversation);
-        }
-    }
+    // void Dialogue()
+    // {
+    //     if (!wasInDialogue)
+    //     {
+    //         wasInDialogue = true;
+    //         int chance = Random.Range(0, 100);
+    //         string selectedConversation = (chance < 80) ? "NPCVampireLureDialogue" : "GameOver";
+    //         DialogueManager.StartConversation(selectedConversation);
+    //     }
+    // }
 
     void AdvanceState() // Cycle through states
     {
@@ -192,12 +192,13 @@ public class VampireAI : MonoBehaviour
                 currentState = VampireState.Lure;
                 break;
             case VampireState.Lure:
-                currentState = VampireState.Dialogue;
-                break;
-            case VampireState.Dialogue:
                 currentState = VampireState.FreeRoam;
                 PickNewDoor();
                 break;
+                // case VampireState.Dialogue:
+                //     currentState = VampireState.FreeRoam;
+                //     PickNewDoor();
+                //     break;
         }
 
         stateTimer = stateDuration;
