@@ -12,5 +12,5 @@ AssetOrigin:
   productId: 112979
   packageName: Flexible Cel Shader - Built in Pipeline
   packageVersion: 1.0
-  assetPath: Assets/FlexibleCelShader/Shaders/CelNoOutline.shader
+  assetPath: Assets/Art/Shaders/FlexibleCelShader/Shaders/CelNoOutline.shader
   uploadId: 402874
