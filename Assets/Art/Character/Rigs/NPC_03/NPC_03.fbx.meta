@@ -3,7 +3,42 @@ guid: 9acc7a834ab493445a508caa42f205a7
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert_dk_brown
+    second: {fileID: 2100000, guid: aa09433ed104bef4686c8b8327b9164c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert_face_lured
+    second: {fileID: 2100000, guid: 6acd0eed6cd951242825801c020a5ec7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert_face_normal
+    second: {fileID: 2100000, guid: 387988c09db7fd4429e043ddd777e79a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert_gold
+    second: {fileID: 2100000, guid: 5e3fad8ef9918f24596b22cf2d29c4cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert_magenta
+    second: {fileID: 2100000, guid: 4e57868d22c086c41bd61ef2a1f945e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert_purple
+    second: {fileID: 2100000, guid: 327832e7a43ad34489886d759829c782, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert_skin
+    second: {fileID: 2100000, guid: c1e05314d4c1f634bb6cda6521fc5229, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
