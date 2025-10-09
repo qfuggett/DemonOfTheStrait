@@ -5,11 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - Vampire
-  - npc1
   - camp
   - lure
   - npc
   - boundary
+  - idle
   layers:
   - Default
   - TransparentFX
