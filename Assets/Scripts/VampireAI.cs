@@ -1,13 +1,20 @@
 using UnityEngine;
+using UnityEngine.AI;
 using System.Collections;
 using System.Collections.Generic;
-// using PixelCrushers.DialogueSystem;
+using PixelCrushers.DialogueSystem;
 public class VampireAI : MonoBehaviour
 {
+    public float stoppingDistance = 1f;
+    public float doorCenterOffset = 0.5f;
     public enum VampireState { FreeRoam, DoorCamp, Lure, Dialogue }
     public VampireState currentState;
 
     public float roamSpeed = 2f;
+    [Header("NavMesh Tuning")]
+    public float navAcceleration = 20f;
+    public float navAngularSpeed = 720f;
+    public bool navAutoBraking = false;
     public float stateDuration = 5f; // Time spent in each state before transitioning
     private float stateTimer;
 
@@ -18,7 +25,12 @@ public class VampireAI : MonoBehaviour
     private Transform targetDoor;
     private Transform targetLureDoor;
 
-    // private bool wasInDialogue = false;
+    private bool wasInDialogue = false;
+
+    private NavMeshAgent agent;
+    private Transform[] campPoints;
+    public string campTag = "camp";
+    private int currentCampIndex = 0;
 
     void Start()
     {
@@ -29,6 +41,29 @@ public class VampireAI : MonoBehaviour
         directionChangeTimer = directionChangeInterval;
 
         PickNewDoor();
+
+        agent = GetComponent<NavMeshAgent>();
+
+        // Sync NavMeshAgent movement with our roam speed and tuning
+        agent.speed = roamSpeed;
+        agent.acceleration = navAcceleration;
+        agent.angularSpeed = navAngularSpeed;
+        agent.autoBraking = navAutoBraking;
+        agent.stoppingDistance = stoppingDistance;
+
+        // Find all camp points by tag
+        GameObject[] campObjects = GameObject.FindGameObjectsWithTag(campTag);
+        campPoints = new Transform[campObjects.Length];
+        for (int i = 0; i < campObjects.Length; i++)
+        {
+            campPoints[i] = campObjects[i].transform;
+        }
+
+        if (campPoints.Length > 0)
+        {
+            currentCampIndex = Random.Range(0, campPoints.Length);
+            agent.SetDestination(campPoints[currentCampIndex].position);
+        }
     }
 
     void Update()
@@ -47,32 +82,38 @@ public class VampireAI : MonoBehaviour
             case VampireState.Lure:
                 Lure();
                 break;
-                // case VampireState.Dialogue:
-                //     Dialogue();
-                //     break;
+            case VampireState.Dialogue:
+                Dialogue();
+                break;
         }
 
-        // if (currentState != VampireState.Dialogue && stateTimer <= 0f)
-        // {
-        //     AdvanceState();
-        // }
+        if (currentState != VampireState.Dialogue && stateTimer <= 0f)
+        {
+            AdvanceState();
+        }
 
-        // // After switch: check for dialogue end and resume
-        // if (currentState == VampireState.Dialogue && !DialogueManager.IsConversationActive && wasInDialogue)
-        // {
-        //     wasInDialogue = false;
-        //     AdvanceState();
-        // }
+        // After switch: check for dialogue end and resume
+        if (currentState == VampireState.Dialogue && !DialogueManager.IsConversationActive && wasInDialogue)
+        {
+            wasInDialogue = false;
+            AdvanceState();
+        }
     }
 
     void FreeRoam() // Add pathfinding once environment is set up
     {
-        transform.Translate(roamDirection * roamSpeed * Time.deltaTime, Space.World);
+        if (campPoints == null || campPoints.Length == 0) return;
 
-        if (directionChangeTimer <= 0f)
+        if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
         {
-            PickNewDirection();
-            directionChangeTimer = directionChangeInterval;
+            int nextIndex;
+            do
+            {
+                nextIndex = Random.Range(0, campPoints.Length);
+            } while (nextIndex == currentCampIndex && campPoints.Length > 1);
+
+            currentCampIndex = nextIndex;
+            agent.SetDestination(campPoints[currentCampIndex].position);
         }
     }
 
@@ -95,13 +136,11 @@ public class VampireAI : MonoBehaviour
             return;
         }
 
-        Vector3 targetPosition = targetDoor.position;
+        Vector3 targetPosition = new Vector3(targetDoor.position.x + doorCenterOffset, targetDoor.position.y, targetDoor.position.z);
+        agent.stoppingDistance = stoppingDistance;
+        agent.SetDestination(targetPosition);
 
-        if (Vector3.Distance(transform.position, targetPosition) > 0.1f)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, targetPosition, roamSpeed * Time.deltaTime);
-        }
-        else
+        if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
         {
             Debug.Log("Vampire is now camping at door.");
             // play idle animation?
@@ -170,16 +209,16 @@ public class VampireAI : MonoBehaviour
         Debug.Log("Vampire is attempting to lure a nearby NPC...");
     }
 
-    // void Dialogue()
-    // {
-    //     if (!wasInDialogue)
-    //     {
-    //         wasInDialogue = true;
-    //         int chance = Random.Range(0, 100);
-    //         string selectedConversation = (chance < 80) ? "NPCVampireLureDialogue" : "GameOver";
-    //         DialogueManager.StartConversation(selectedConversation);
-    //     }
-    // }
+    void Dialogue()
+    {
+        if (!wasInDialogue)
+        {
+            wasInDialogue = true;
+            int chance = Random.Range(0, 100);
+            string selectedConversation = (chance < 80) ? "NPCVampireLureDialogue" : "GameOver";
+            DialogueManager.StartConversation(selectedConversation);
+        }
+    }
 
     void AdvanceState() // Cycle through states
     {
@@ -192,13 +231,28 @@ public class VampireAI : MonoBehaviour
                 currentState = VampireState.Lure;
                 break;
             case VampireState.Lure:
+                currentState = VampireState.Dialogue;
+                break;
+            case VampireState.Dialogue:
                 currentState = VampireState.FreeRoam;
                 PickNewDoor();
                 break;
-                // case VampireState.Dialogue:
-                //     currentState = VampireState.FreeRoam;
-                //     PickNewDoor();
-                //     break;
+        }
+
+        // NavMeshAgent handling for state transitions
+        if (agent != null)
+        {
+            if (currentState == VampireState.DoorCamp)
+            {
+                agent.ResetPath();
+            }
+            else if (currentState == VampireState.FreeRoam && campPoints != null && campPoints.Length > 0)
+            {
+                if (!agent.hasPath)
+                {
+                    agent.SetDestination(campPoints[currentCampIndex].position);
+                }
+            }
         }
 
         stateTimer = stateDuration;
