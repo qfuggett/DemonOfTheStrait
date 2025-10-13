@@ -16,6 +16,7 @@ public class NpcAI : MonoBehaviour
     [SerializeField, Range(0, 99)]
 
     private NavMeshAgent agent;
+    private Animator animator;
     private Transform[] idleSpots;
     private int currentSpotIndex = -1;
     private bool isSuspended;
@@ -24,6 +25,15 @@ public class NpcAI : MonoBehaviour
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
+        animator = GetComponent<Animator>();
+    }
+    private void Update()
+    {
+        if (animator != null && agent != null)
+        {
+            bool isWalking = !agent.pathPending && agent.velocity.magnitude > 0.1f;
+            animator.SetBool("isWalking", isWalking);
+        }
     }
 
     private void Start()
@@ -111,6 +121,10 @@ public class NpcAI : MonoBehaviour
         if (suspend)
         {
             agent.ResetPath();
+            if (animator != null)
+            {
+                animator.SetBool("isWalking", false);
+            }
         }
     }
 

@@ -28,6 +28,7 @@ public class VampireAI : MonoBehaviour
     private bool wasInDialogue = false;
 
     private NavMeshAgent agent;
+    private Animator animator;
     private Transform[] campPoints;
     public string campTag = "camp";
     private int currentCampIndex = 0;
@@ -43,6 +44,7 @@ public class VampireAI : MonoBehaviour
         PickNewDoor();
 
         agent = GetComponent<NavMeshAgent>();
+        animator = GetComponent<Animator>();
 
         // Sync NavMeshAgent movement with our roam speed and tuning
         agent.speed = roamSpeed;
@@ -97,6 +99,12 @@ public class VampireAI : MonoBehaviour
         {
             wasInDialogue = false;
             AdvanceState();
+        }
+
+        if (animator != null && agent != null)
+        {
+            bool isWalking = agent.velocity.magnitude > 0.1f && !agent.pathPending;
+            animator.SetBool("isWalking", isWalking);
         }
     }
 
