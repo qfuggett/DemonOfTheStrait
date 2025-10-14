@@ -150,6 +150,7 @@ LightingData.asset     binary
 *.tga filter=lfs diff=lfs merge=lfs -text
 *.mov filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
+*.abc filter=lfs diff=lfs merge=lfs -text
 
 #FMOD
 Assets/Plugins/FMOD/**/*.bundle text eol=lf
