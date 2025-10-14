@@ -1540,6 +1540,130 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 798327879}
   m_SourcePrefab: {fileID: -1149080657968934824, guid: 48123a85af165174a82edf490424116b, type: 3}
+--- !u!1001 &1369116314
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -9061219638937878289, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -9061219638937878289, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -9061219638937878289, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -9061219638937878289, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -9061219638937878289, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -9061219638937878289, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -9061219638937878289, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -9061219638937878289, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -9061219638937878289, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -9061219638937878289, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8060081153063651236, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -7759385325221252455, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -4170258542535320037, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -2967905568109656639, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dc4b87c06b7b8b48b4a4c2ce4e9e987, type: 2}
+    - target: {fileID: -2623445427677623169, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -1569339010256606684, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -1301926724080321017, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -576320841355574478, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 554456374665682543, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930032276177443099, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3038375954279178788, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797265551013540734, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 159ff3d49b6cb9145b409ac8e7385014, type: 2}
+    - target: {fileID: 5150129179140157727, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8108500277000691130, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_Name
+      value: Lira_Alembic
+      objectReference: {fileID: 0}
+    - target: {fileID: 8899526323322710406, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 1175230475644160050, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+--- !u!114 &1369116315 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5707173097685300904, guid: 25f8d4a65ec8261498112c29cfb08a6f, type: 3}
+  m_PrefabInstance: {fileID: 1369116314}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6983ab2008f7a9f499b3f8cd6bec328d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Formats.Alembic.Runtime::UnityEngine.Formats.Alembic.Importer.AlembicStreamPlayer
 --- !u!1001 &1442207668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1820,6 +1944,7 @@ PlayableDirector:
     m_References:
     - aa652cf1684ecde4ea5b7d2be96d026d: {fileID: 497906336}
     - c60ddcf3c7e1250488779500f938e9ff: {fileID: 0}
+    - 20c4629628429c245ad5516ba52cf5f5: {fileID: 1369116315}
     - 6d7dcb103c80b9a4db0014efe135f676: {fileID: 798327877}
     - 99ff3ed685579ef4a81c6722991ae0f2: {fileID: 811678492}
     - eb770df892f98084092f2cc8f6009463: {fileID: 1457903044}
@@ -2130,6 +2255,7 @@ SceneRoots:
   - {fileID: 1442207668}
   - {fileID: 1574740523}
   - {fileID: 1297939400}
+  - {fileID: 1369116314}
   - {fileID: 826610048}
   - {fileID: 1858109748}
   - {fileID: 1066100912}
