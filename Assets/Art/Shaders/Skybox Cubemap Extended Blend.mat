@@ -101,8 +101,8 @@ Material:
     - _Exposure: 1
     - _Float0: -0.21
     - _FogFill: 0
-    - _FogHeight: 0.213
-    - _FogIntensity: 0.27
+    - _FogHeight: 0.169
+    - _FogIntensity: 0.265
     - _FogMessage: 0
     - _FogPosition: 0
     - _FogSmoothness: 0.677
@@ -117,7 +117,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Rotation: 0
-    - _RotationSpeed: 0
+    - _RotationSpeed: 1
     - _Rotationn: 1
     - _SkyboxExtended: 1
     - _SmoothnessTextureChannel: 0
