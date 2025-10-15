@@ -19,7 +19,7 @@ ScriptedImporter:
     scaleFactor: 0.01
     swapHandedness: 1
     flipFaces: 0
-    interpolateSamples: 1
+    interpolateSamples: 0
     importPointPolygon: 1
     importLinePolygon: 1
     importTrianglePolygon: 1
