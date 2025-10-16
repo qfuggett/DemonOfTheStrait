@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using System.Collections;
 using System.Collections.Generic;
-using PixelCrushers.DialogueSystem;
+// using PixelCrushers.DialogueSystem;
 public class VampireAI : MonoBehaviour
 {
     public float stoppingDistance = 1f;
@@ -20,7 +20,7 @@ public class VampireAI : MonoBehaviour
     private float stateTimer;
     private Transform targetDoor;
     private Transform currentTargetWindow;
-    private bool wasInDialogue = false;
+    // private bool wasInDialogue = false;
     private bool hasLuredNPC = false;
     private NavMeshAgent agent;
     private Animator animator;
@@ -74,9 +74,9 @@ public class VampireAI : MonoBehaviour
             case VampireState.Lure:
                 finishedState = Lure();
                 break;
-            case VampireState.Dialogue:
-                finishedState = Dialogue();
-                break;
+                // case VampireState.Dialogue:
+                //     finishedState = Dialogue();
+                //     break;
         }
 
         if (finishedState) // When each state returns true, advance to the next state
@@ -262,40 +262,40 @@ public class VampireAI : MonoBehaviour
         return false; // Still in lure state
     }
 
-    bool Dialogue()
-    {
-        if (!wasInDialogue)
-        {
-            wasInDialogue = true;
+    // bool Dialogue()
+    // {
+    //     if (!wasInDialogue)
+    //     {
+    //         wasInDialogue = true;
 
-            if (animator != null)
-            {
-                animator.SetBool("isWalking", false);
-            }
+    //         if (animator != null)
+    //         {
+    //             animator.SetBool("isWalking", false);
+    //         }
 
-            int chance = Random.Range(0, 100);
-            string selectedConversation = (chance < 80) ? "NPCVampireLureDialogue" : "GameOver";
-            DialogueManager.StartConversation(selectedConversation);
-            Debug.Log($"Starting conversation: {selectedConversation}");
-        }
-        // Check if dialogue has finished
-        if (!DialogueManager.IsConversationActive)
-        {
-            wasInDialogue = false;
-            stateTimer = stateDuration;
+    //         int chance = Random.Range(0, 100);
+    //         string selectedConversation = (chance < 80) ? "NPCVampireLureDialogue" : "GameOver";
+    //         DialogueManager.StartConversation(selectedConversation);
+    //         Debug.Log($"Starting conversation: {selectedConversation}");
+    //     }
+    //     // Check if dialogue has finished
+    //     if (!DialogueManager.IsConversationActive)
+    //     {
+    //         wasInDialogue = false;
+    //         stateTimer = stateDuration;
 
-            // re-enable the agent before transitioning back to FreeRoam
-            if (agent != null)
-            {
-                agent.ResetPath();           // Clear any old destination
-                agent.velocity = Vector3.zero;
-                agent.isStopped = false;
-            }
-            return true; // Done, move on to free roam
-        }
-        return false; // Wait until dialogue is done
+    //         // re-enable the agent before transitioning back to FreeRoam
+    //         if (agent != null)
+    //         {
+    //             agent.ResetPath();           // Clear any old destination
+    //             agent.velocity = Vector3.zero;
+    //             agent.isStopped = false;
+    //         }
+    //         return true; // Done, move on to free roam
+    //     }
+    //     return false; // Wait until dialogue is done
 
-    }
+    // }
 
     void AdvanceState() // Cycle through states
     {
@@ -308,11 +308,11 @@ public class VampireAI : MonoBehaviour
                 currentState = VampireState.Lure;
                 break;
             case VampireState.Lure:
-                currentState = VampireState.Dialogue;
-                break;
-            case VampireState.Dialogue:
                 currentState = VampireState.FreeRoam;
                 break;
+                // case VampireState.Dialogue:
+                //     currentState = VampireState.FreeRoam;
+                //     break;
         }
         // Reset timer per state
         stateTimer = stateDuration;
