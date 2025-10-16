@@ -10,11 +10,12 @@ TagManager:
   - npc
   - boundary
   - idle
+  - window
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - NPC
   - Water
   - UI
   - 
